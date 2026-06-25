@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한글 크로스워드 퍼즐</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>한글 크로스워드</h1>
+      <p class="subtitle">카테고리를 고르고, 넣을 단어 수를 정한 뒤 퍼즐을 생성하세요</p>
+    </header>
+
+    <section class="controls">
+      <div class="control-group">
+        <label for="category">카테고리</label>
+        <select id="category"></select>
+      </div>
+      <div class="control-group">
+        <label for="wordCount">퍼즐 단어 수</label>
+        <input type="range" id="wordCount" min="6" max="14" value="10" />
+        <span id="wordCountLabel" class="control-hint">10개 · 최소 9×9 격자</span>
+      </div>
+      <button id="generateBtn" class="btn-primary">퍼즐 생성</button>
+      <button id="recordsBtn" type="button" class="btn-secondary">기록 보기</button>
+    </section>
+
+    <main class="main">
+      <div id="emptyState" class="empty-state">
+        <div class="empty-icon">⊞</div>
+        <p>카테고리를 선택하고 <strong>퍼즐 생성</strong>을 눌러주세요</p>
+      </div>
+
+      <div id="puzzleArea" class="puzzle-area hidden">
+        <div id="puzzleTimerBar" class="puzzle-timer-bar hidden">
+          <span class="puzzle-timer-label">풀이 시간</span>
+          <span id="timerText" class="puzzle-timer">00:00</span>
+        </div>
+        <div id="gameResultBar" class="game-result-bar hidden">
+          <div class="game-result-summary">
+            <p id="resultTitle" class="game-result-title">게임 결과</p>
+            <p id="resultCategory" class="game-result-category"></p>
+          </div>
+          <dl class="result-stats">
+            <div class="result-stat">
+              <dt>풀이 시간</dt>
+              <dd id="resultTime">00:00</dd>
+            </div>
+            <div class="result-stat">
+              <dt>정답률</dt>
+              <dd id="resultAccuracy">0%</dd>
+            </div>
+            <div class="result-stat">
+              <dt>정답</dt>
+              <dd id="resultScore">0/0</dd>
+            </div>
+          </dl>
+          <button id="replayGameBtn" type="button" class="btn-primary btn-result-replay">게임 다시하기</button>
+        </div>
+        <div class="grid-wrap">
+          <div class="grid-stage">
+            <div id="grid" class="grid" role="grid" aria-label="크로스워드 그리드"></div>
+            <div id="wordInputBar" class="word-input-bar hidden">
+              <span id="wordInputHint" class="word-input-hint"></span>
+              <input
+                type="text"
+                id="wordInput"
+                class="word-input"
+                lang="ko"
+                inputmode="text"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+                placeholder="단어 입력"
+              />
+            </div>
+          </div>
+          <div id="puzzleToast" class="puzzle-toast hidden" role="status" aria-live="polite"></div>
+        </div>
+        <aside class="clues">
+          <section class="clue-section">
+            <h2>가로 <span id="acrossCount" class="badge">0</span></h2>
+            <ol id="acrossClues" class="clue-list"></ol>
+          </section>
+          <section class="clue-section">
+            <h2>세로 <span id="downCount" class="badge">0</span></h2>
+            <ol id="downClues" class="clue-list"></ol>
+          </section>
+        </aside>
+        <div id="gameStartOverlay" class="puzzle-overlay hidden">
+          <div class="puzzle-overlay-panel">
+            <p class="puzzle-overlay-title">퍼즐이 준비되었습니다</p>
+            <p class="puzzle-overlay-desc">게임 시작을 누르면 타이머가 시작됩니다</p>
+            <button id="startGameBtn" type="button" class="btn-primary btn-overlay-action">게임 시작</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span id="statusText">준비됨</span>
+    </footer>
+
+    <div id="recordsModal" class="records-modal hidden" role="dialog" aria-modal="true" aria-labelledby="recordsModalTitle">
+      <div class="records-modal-backdrop" data-close-records></div>
+      <div class="records-modal-panel">
+        <header class="records-modal-header">
+          <h2 id="recordsModalTitle">풀이 기록</h2>
+          <button id="closeRecordsBtn" type="button" class="records-close-btn" aria-label="닫기">×</button>
+        </header>
+        <div id="recordsList" class="records-list"></div>
+        <p id="recordsEmpty" class="records-empty hidden">아직 기록이 없습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/categories.js"></script>
+  <script src="js/hangul.js"></script>
+  <script src="js/crossword.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

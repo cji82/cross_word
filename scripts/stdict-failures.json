@@ -1,0 +1,602 @@
+[
+  {
+    "word": "얼룩말",
+    "categories": [
+      "animals"
+    ]
+  },
+  {
+    "word": "돌고래",
+    "categories": [
+      "animals"
+    ]
+  },
+  {
+    "word": "칠성벌",
+    "categories": [
+      "animals"
+    ]
+  },
+  {
+    "word": "꿩돌이",
+    "categories": [
+      "animals"
+    ]
+  },
+  {
+    "word": "황소",
+    "categories": [
+      "animals"
+    ]
+  },
+  {
+    "word": "보쌈",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "닭볶음",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "해물파전",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "오징어볶음",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "어묵국",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "나물무침",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "무국",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "만두국",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "냉이국",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "콩비지찌개",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "조개구이",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "소고기국",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "불닭볶음면",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "치즈볼",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "순대국",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "곱창구이",
+    "categories": [
+      "food"
+    ]
+  },
+  {
+    "word": "한라봉",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "천혜향",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "용과",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "패션후르츠",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "구아바",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "적포도",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "샤인머스캣",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "레드향",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "왕귤",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "황금향",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "설향",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "넥타린",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "크랜베리",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "그린키위",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "골드키위",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "적토마토",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "청매실",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "홍매실",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "부부감",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "추황",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "태추",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "노랑배",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "산마귤",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "구즈베리",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "청송사과",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "외대앵두",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "하우스딸기",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "왕딸기",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "아오리",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "홍사과",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "청사과",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "신고딸기",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "하우스멜론",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "플루오트",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "배즙",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "홍배",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "드래곤후르츠",
+    "categories": [
+      "fruits"
+    ]
+  },
+  {
+    "word": "치과의사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "회계사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "택배기사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "네일리스트",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "마사지사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "바리스타",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "셰프",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "일러스트레이터",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "인테리어디자이너",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "전기기사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "연구원",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "데이터분석가",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "마케터",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "영업사원",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "심리상담사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "사회복지사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "유치원교사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "특수교사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "운동코치",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "헬스트레이너",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "약국직원",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "응급구조사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "파라메딕",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "도서관사서",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "호텔리어",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "여행가이드",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "통역안내원",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "투자자문가",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "보험설계사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "부동산중개인",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "공인중개사",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "기상캐스터",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "유튜버",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "스트리머",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "게임개발자",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "웹디자이너",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "출판편집자",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "패션디자이너",
+    "categories": [
+      "jobs"
+    ]
+  },
+  {
+    "word": "들판",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "word": "암석지",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "word": "갯풀",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "word": "논두렁",
+    "categories": [
+      "nature"
+    ]
+  }
+]

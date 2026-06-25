@@ -1,0 +1,4506 @@
+{
+  "checked": {
+    "고양이": "stdict",
+    "강아지": "stdict",
+    "호랑이": "stdict",
+    "사자": "opendict",
+    "코끼리": "stdict",
+    "기린": "opendict",
+    "펭귄": "stdict",
+    "토끼": "stdict",
+    "거북이": "stdict",
+    "독수리": "stdict",
+    "고래": "opendict",
+    "원숭이": "stdict",
+    "사슴": "opendict",
+    "여우": "opendict",
+    "늑대": "stdict",
+    "판다": "stdict",
+    "캥거루": "stdict",
+    "코알라": "stdict",
+    "악어": "opendict",
+    "상어": "opendict",
+    "문어": "opendict",
+    "오징어": "stdict",
+    "새우": "opendict",
+    "조개": "opendict",
+    "달팽이": "stdict",
+    "개미": "opendict",
+    "나비": "opendict",
+    "잠자리": "opendict",
+    "참새": "opendict",
+    "비둘기": "stdict",
+    "오리": "opendict",
+    "거위": "opendict",
+    "병아리": "stdict",
+    "돼지": "stdict",
+    "염소": "opendict",
+    "당나귀": "stdict",
+    "낙타": "opendict",
+    "하마": "opendict",
+    "코뿔소": "stdict",
+    "얼룩말": "opendict",
+    "표범": "stdict",
+    "치타": "opendict",
+    "하이에나": "stdict",
+    "너구리": "stdict",
+    "두더지": "stdict",
+    "다람쥐": "stdict",
+    "청설모": "stdict",
+    "박쥐": "stdict",
+    "돌고래": "opendict",
+    "범고래": "stdict",
+    "가오리": "stdict",
+    "해마": "stdict",
+    "연어": "opendict",
+    "참치": "opendict",
+    "광어": "stdict",
+    "붕어": "opendict",
+    "잉어": "opendict",
+    "금붕어": "stdict",
+    "메추리": "stdict",
+    "타조": "opendict",
+    "공작": "opendict",
+    "앵무새": "stdict",
+    "햄스터": "stdict",
+    "친칠라": "stdict",
+    "순록": "stdict",
+    "물개": "stdict",
+    "수달": "opendict",
+    "비버": "stdict",
+    "고슴도치": "stdict",
+    "플라밍고": "stdict",
+    "백조": "opendict",
+    "까치": "opendict",
+    "까마귀": "stdict",
+    "올빼미": "stdict",
+    "부엉이": "stdict",
+    "제비": "opendict",
+    "뻐꾸기": "stdict",
+    "개구리": "stdict",
+    "두꺼비": "stdict",
+    "칠면조": "stdict",
+    "오소리": "stdict",
+    "족제비": "stdict",
+    "멧돼지": "stdict",
+    "산양": "opendict",
+    "재규어": "stdict",
+    "수리부엉이": "stdict",
+    "물총새": "stdict",
+    "왜가리": "stdict",
+    "도롱뇽": "stdict",
+    "딱따구리": "opendict",
+    "불곰": "stdict",
+    "대게": "stdict",
+    "칠성벌": "invalid",
+    "송골매": "stdict",
+    "수탉": "stdict",
+    "젖소": "stdict",
+    "준마": "stdict",
+    "구렁이": "stdict",
+    "꿩돌이": "invalid",
+    "황소": "opendict",
+    "김치찌개": "stdict",
+    "된장찌개": "stdict",
+    "김밥": "stdict",
+    "김치": "opendict",
+    "비빔밥": "stdict",
+    "볶음밥": "stdict",
+    "떡볶이": "stdict",
+    "불고기": "stdict",
+    "라면": "opendict",
+    "잡채": "stdict",
+    "칼국수": "stdict",
+    "만두": "opendict",
+    "삼겹살": "stdict",
+    "갈비": "opendict",
+    "삼계탕": "stdict",
+    "순두부": "stdict",
+    "냉면": "stdict",
+    "짜장면": "stdict",
+    "짬뽕": "stdict",
+    "탕수육": "stdict",
+    "깐풍기": "stdict",
+    "갈비탕": "stdict",
+    "설렁탕": "stdict",
+    "육개장": "stdict",
+    "곰탕": "stdict",
+    "해물탕": "stdict",
+    "보쌈": "opendict",
+    "족발": "stdict",
+    "순대": "stdict",
+    "국밥": "stdict",
+    "미역국": "stdict",
+    "된장국": "stdict",
+    "계란찜": "stdict",
+    "계란말이": "stdict",
+    "제육볶음": "stdict",
+    "닭갈비": "stdict",
+    "닭볶음": "opendict",
+    "호떡": "stdict",
+    "붕어빵": "stdict",
+    "김치전": "stdict",
+    "파전": "opendict",
+    "해물파전": "opendict",
+    "감자전": "stdict",
+    "빈대떡": "stdict",
+    "전복죽": "stdict",
+    "호박죽": "stdict",
+    "팥죽": "stdict",
+    "인절미": "stdict",
+    "송편": "stdict",
+    "경단": "opendict",
+    "식혜": "stdict",
+    "수정과": "stdict",
+    "부대찌개": "stdict",
+    "청국장": "stdict",
+    "순두부찌개": "stdict",
+    "닭죽": "stdict",
+    "오징어볶음": "opendict",
+    "어묵국": "opendict",
+    "떡국": "stdict",
+    "떡갈비": "stdict",
+    "장어구이": "stdict",
+    "회덮밥": "stdict",
+    "초밥": "stdict",
+    "튀김": "opendict",
+    "카레": "stdict",
+    "스테이크": "stdict",
+    "파스타": "opendict",
+    "피자": "stdict",
+    "샌드위치": "stdict",
+    "토스트": "stdict",
+    "오므라이스": "stdict",
+    "주먹밥": "stdict",
+    "김치볶음밥": "stdict",
+    "두부조림": "stdict",
+    "나물무침": "opendict",
+    "시래기": "stdict",
+    "콩나물국": "stdict",
+    "무국": "opendict",
+    "감자탕": "stdict",
+    "닭볶음탕": "stdict",
+    "해물찜": "stdict",
+    "아구찜": "stdict",
+    "찜닭": "stdict",
+    "약식": "opendict",
+    "약과": "stdict",
+    "호박전": "stdict",
+    "동그랑땡": "stdict",
+    "만두국": "opendict",
+    "냉이국": "opendict",
+    "콩비지찌개": "invalid",
+    "매운탕": "stdict",
+    "조개구이": "opendict",
+    "소고기국": "invalid",
+    "차돌박이": "stdict",
+    "불닭볶음면": "invalid",
+    "치즈볼": "opendict",
+    "핫도그": "stdict",
+    "순대국": "opendict",
+    "곱창구이": "opendict",
+    "비빔국수": "stdict",
+    "사과": "opendict",
+    "포도": "opendict",
+    "수박": "opendict",
+    "딸기": "stdict",
+    "복숭아": "stdict",
+    "오렌지": "stdict",
+    "레몬": "stdict",
+    "라임": "opendict",
+    "자몽": "opendict",
+    "한라봉": "opendict",
+    "천혜향": "opendict",
+    "유자": "opendict",
+    "홍시": "stdict",
+    "단감": "stdict",
+    "곶감": "stdict",
+    "키위": "opendict",
+    "망고": "opendict",
+    "바나나": "stdict",
+    "파인애플": "stdict",
+    "용과": "opendict",
+    "리치": "opendict",
+    "용안": "opendict",
+    "코코넛": "stdict",
+    "석류": "opendict",
+    "무화과": "stdict",
+    "블루베리": "stdict",
+    "라즈베리": "stdict",
+    "산딸기": "stdict",
+    "오디": "stdict",
+    "다래": "opendict",
+    "구기자": "stdict",
+    "오미자": "stdict",
+    "매실": "opendict",
+    "자두": "stdict",
+    "체리": "opendict",
+    "아보카도": "stdict",
+    "참외": "opendict",
+    "멜론": "stdict",
+    "방울토마토": "stdict",
+    "토마토": "stdict",
+    "두리안": "stdict",
+    "망고스틴": "stdict",
+    "패션프루트": "opendict",
+    "구아바": "invalid",
+    "서양배": "stdict",
+    "청포도": "stdict",
+    "적포도": "invalid",
+    "샤인머스캣": "opendict",
+    "금귤": "stdict",
+    "레드향": "opendict",
+    "탱자": "stdict",
+    "머루": "stdict",
+    "복분자": "stdict",
+    "산수유": "stdict",
+    "왕귤": "invalid",
+    "황금향": "invalid",
+    "설향": "invalid",
+    "밀감": "stdict",
+    "청귤": "stdict",
+    "살구": "stdict",
+    "넥타린": "invalid",
+    "대추": "opendict",
+    "블랙베리": "stdict",
+    "크랜베리": "opendict",
+    "그린키위": "opendict",
+    "골드키위": "opendict",
+    "적토마토": "invalid",
+    "홍감": "stdict",
+    "청매실": "invalid",
+    "홍매실": "invalid",
+    "금감": "stdict",
+    "부부감": "invalid",
+    "앵두": "stdict",
+    "모과": "opendict",
+    "감귤": "stdict",
+    "거봉": "stdict",
+    "후지": "opendict",
+    "홍로": "opendict",
+    "추황": "invalid",
+    "태추": "invalid",
+    "람부탄": "stdict",
+    "골드바": "stdict",
+    "노랑배": "invalid",
+    "산마귤": "invalid",
+    "구즈베리": "invalid",
+    "청송사과": "invalid",
+    "외대앵두": "invalid",
+    "하우스딸기": "opendict",
+    "왕딸기": "invalid",
+    "아오리": "opendict",
+    "부사": "opendict",
+    "홍사과": "invalid",
+    "조각배": "stdict",
+    "청사과": "opendict",
+    "신고딸기": "invalid",
+    "하우스멜론": "invalid",
+    "플루오트": "invalid",
+    "배즙": "opendict",
+    "홍배": "invalid",
+    "용설란": "stdict",
+    "의사": "opendict",
+    "간호사": "stdict",
+    "교사": "opendict",
+    "요리사": "stdict",
+    "경찰": "opendict",
+    "소방관": "stdict",
+    "변호사": "stdict",
+    "기자": "opendict",
+    "개발자": "stdict",
+    "디자이너": "stdict",
+    "운동선수": "stdict",
+    "약사": "opendict",
+    "치과의사": "opendict",
+    "한의사": "stdict",
+    "수의사": "stdict",
+    "회계사": "opendict",
+    "세무사": "stdict",
+    "판사": "opendict",
+    "검사": "opendict",
+    "군인": "stdict",
+    "선원": "opendict",
+    "조종사": "stdict",
+    "승무원": "stdict",
+    "기사": "opendict",
+    "택배기사": "invalid",
+    "미용사": "stdict",
+    "네일리스트": "opendict",
+    "마사지사": "opendict",
+    "바리스타": "opendict",
+    "제빵사": "stdict",
+    "셰프": "opendict",
+    "영화감독": "stdict",
+    "배우": "opendict",
+    "가수": "opendict",
+    "작곡가": "stdict",
+    "작가": "opendict",
+    "번역가": "stdict",
+    "통역사": "stdict",
+    "사진작가": "stdict",
+    "일러스트레이터": "opendict",
+    "건축가": "stdict",
+    "인테리어디자이너": "opendict",
+    "목수": "opendict",
+    "전기기사": "opendict",
+    "배관공": "stdict",
+    "용접공": "stdict",
+    "농부": "opendict",
+    "어부": "opendict",
+    "목동": "stdict",
+    "교수": "opendict",
+    "연구원": "opendict",
+    "과학자": "stdict",
+    "엔지니어": "stdict",
+    "프로그래머": "opendict",
+    "데이터분석가": "invalid",
+    "마케터": "opendict",
+    "영업사원": "opendict",
+    "상담사": "stdict",
+    "심리상담사": "opendict",
+    "사회복지사": "stdict",
+    "유치원교사": "invalid",
+    "특수교사": "stdict",
+    "운동코치": "invalid",
+    "심판": "opendict",
+    "헬스트레이너": "opendict",
+    "약국직원": "invalid",
+    "치위생사": "stdict",
+    "방사선사": "stdict",
+    "응급구조사": "opendict",
+    "파라메딕": "invalid",
+    "도서관사서": "invalid",
+    "큐레이터": "stdict",
+    "안내원": "stdict",
+    "호텔리어": "opendict",
+    "여행가이드": "invalid",
+    "통역안내원": "invalid",
+    "은행원": "stdict",
+    "투자자문가": "invalid",
+    "보험설계사": "opendict",
+    "부동산중개인": "opendict",
+    "공인중개사": "stdict",
+    "법무사": "stdict",
+    "공무원": "stdict",
+    "외교관": "stdict",
+    "통역관": "stdict",
+    "기상캐스터": "opendict",
+    "아나운서": "stdict",
+    "진행자": "stdict",
+    "유튜버": "invalid",
+    "스트리머": "opendict",
+    "게임개발자": "invalid",
+    "웹디자이너": "opendict",
+    "편집자": "stdict",
+    "출판편집자": "invalid",
+    "애니메이터": "stdict",
+    "성우": "opendict",
+    "모델": "stdict",
+    "패션디자이너": "opendict",
+    "조각가": "stdict",
+    "화가": "opendict",
+    "바다": "stdict",
+    "바람": "opendict",
+    "나무": "opendict",
+    "구름": "stdict",
+    "번개": "stdict",
+    "천둥": "stdict",
+    "무지개": "stdict",
+    "새벽": "opendict",
+    "황혼": "stdict",
+    "일출": "opendict",
+    "일몰": "stdict",
+    "호수": "opendict",
+    "연못": "stdict",
+    "폭포": "opendict",
+    "계곡": "opendict",
+    "들판": "opendict",
+    "초원": "opendict",
+    "사막": "opendict",
+    "반도": "opendict",
+    "해변": "stdict",
+    "모래": "stdict",
+    "바위": "opendict",
+    "동굴": "stdict",
+    "화산": "opendict",
+    "용암": "opendict",
+    "지진": "opendict",
+    "쓰나미": "opendict",
+    "태풍": "stdict",
+    "안개": "stdict",
+    "이슬": "stdict",
+    "서리": "opendict",
+    "얼음": "opendict",
+    "빙하": "opendict",
+    "강물": "stdict",
+    "바닷물": "stdict",
+    "민물": "opendict",
+    "샘물": "stdict",
+    "지하수": "stdict",
+    "습지": "opendict",
+    "갯벌": "stdict",
+    "산맥": "opendict",
+    "고원": "opendict",
+    "협곡": "stdict",
+    "절벽": "stdict",
+    "언덕": "stdict",
+    "들녘": "stdict",
+    "들꽃": "stdict",
+    "꽃잎": "stdict",
+    "가지": "opendict",
+    "뿌리": "stdict",
+    "줄기": "opendict",
+    "열매": "opendict",
+    "씨앗": "stdict",
+    "이끼": "opendict",
+    "대나무": "stdict",
+    "소나무": "stdict",
+    "단풍": "opendict",
+    "낙엽": "stdict",
+    "새싹": "stdict",
+    "햇살": "stdict",
+    "그늘": "stdict",
+    "그림자": "stdict",
+    "공기": "opendict",
+    "오존": "stdict",
+    "대기": "opendict",
+    "우주": "opendict",
+    "은하": "stdict",
+    "행성": "opendict",
+    "혜성": "opendict",
+    "유성": "opendict",
+    "오로라": "stdict",
+    "조수": "opendict",
+    "파도": "stdict",
+    "해일": "opendict",
+    "조류": "opendict",
+    "암석": "opendict",
+    "목초": "opendict",
+    "수풀": "stdict",
+    "하천": "opendict",
+    "분지": "opendict",
+    "암석지": "invalid",
+    "갯풀": "invalid",
+    "들풀": "stdict",
+    "해안": "opendict",
+    "한강": "opendict",
+    "산봉우리": "stdict",
+    "원시림": "stdict",
+    "꽃밭": "stdict",
+    "소나기": "stdict",
+    "눈꽃": "stdict",
+    "햇볕": "stdict",
+    "달빛": "stdict",
+    "별빛": "stdict",
+    "무인도": "stdict",
+    "돌산": "stdict",
+    "늪지대": "stdict",
+    "논두렁": "opendict",
+    "텃밭": "stdict",
+    "나뭇잎": "stdict",
+    "잡초": "opendict"
+  },
+  "results": [
+    {
+      "word": "고양이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "고양이",
+      "suggestedWord": "고양이"
+    },
+    {
+      "word": "강아지",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "강아지",
+      "suggestedWord": "강아지"
+    },
+    {
+      "word": "호랑이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "호랑이",
+      "suggestedWord": "호랑이"
+    },
+    {
+      "word": "사자",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "사자",
+      "suggestedWord": "사자"
+    },
+    {
+      "word": "코끼리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "코끼리",
+      "suggestedWord": "코끼리"
+    },
+    {
+      "word": "기린",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "기린",
+      "suggestedWord": "기린"
+    },
+    {
+      "word": "펭귄",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "펭귄",
+      "suggestedWord": "펭귄"
+    },
+    {
+      "word": "토끼",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "토끼",
+      "suggestedWord": "토끼"
+    },
+    {
+      "word": "거북이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "거북이",
+      "suggestedWord": "거북이"
+    },
+    {
+      "word": "독수리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "독수리",
+      "suggestedWord": "독수리"
+    },
+    {
+      "word": "고래",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "고래",
+      "suggestedWord": "고래"
+    },
+    {
+      "word": "원숭이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "원숭이",
+      "suggestedWord": "원숭이"
+    },
+    {
+      "word": "사슴",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "사슴",
+      "suggestedWord": "사슴"
+    },
+    {
+      "word": "여우",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "여우",
+      "suggestedWord": "여우"
+    },
+    {
+      "word": "늑대",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "늑대",
+      "suggestedWord": "늑대"
+    },
+    {
+      "word": "판다",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "판다",
+      "suggestedWord": "판다"
+    },
+    {
+      "word": "캥거루",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "캥거루",
+      "suggestedWord": "캥거루"
+    },
+    {
+      "word": "코알라",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "코알라",
+      "suggestedWord": "코알라"
+    },
+    {
+      "word": "악어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "악어",
+      "suggestedWord": "악어"
+    },
+    {
+      "word": "상어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "상어",
+      "suggestedWord": "상어"
+    },
+    {
+      "word": "문어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "문어",
+      "suggestedWord": "문어"
+    },
+    {
+      "word": "오징어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "오징어",
+      "suggestedWord": "오징어"
+    },
+    {
+      "word": "새우",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "새우",
+      "suggestedWord": "새우"
+    },
+    {
+      "word": "조개",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "조개",
+      "suggestedWord": "조개"
+    },
+    {
+      "word": "달팽이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "달팽이",
+      "suggestedWord": "달팽이"
+    },
+    {
+      "word": "개미",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "개미",
+      "suggestedWord": "개미"
+    },
+    {
+      "word": "나비",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "나비",
+      "suggestedWord": "나비"
+    },
+    {
+      "word": "잠자리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "잠자리",
+      "suggestedWord": "잠자리"
+    },
+    {
+      "word": "참새",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "참새",
+      "suggestedWord": "참새"
+    },
+    {
+      "word": "비둘기",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "비둘기",
+      "suggestedWord": "비둘기"
+    },
+    {
+      "word": "오리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "오리",
+      "suggestedWord": "오리"
+    },
+    {
+      "word": "거위",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "거위",
+      "suggestedWord": "거위"
+    },
+    {
+      "word": "병아리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "병아리",
+      "suggestedWord": "병아리"
+    },
+    {
+      "word": "돼지",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "돼지",
+      "suggestedWord": "돼지"
+    },
+    {
+      "word": "염소",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "염소",
+      "suggestedWord": "염소"
+    },
+    {
+      "word": "당나귀",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "당나귀",
+      "suggestedWord": "당나귀"
+    },
+    {
+      "word": "낙타",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "낙타",
+      "suggestedWord": "낙타"
+    },
+    {
+      "word": "하마",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "하마",
+      "suggestedWord": "하마"
+    },
+    {
+      "word": "코뿔소",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "코뿔소",
+      "suggestedWord": "코뿔소"
+    },
+    {
+      "word": "얼룩말",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "얼룩말",
+      "suggestedWord": "얼룩말"
+    },
+    {
+      "word": "표범",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "표범",
+      "suggestedWord": "표범"
+    },
+    {
+      "word": "치타",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "치타",
+      "suggestedWord": "치타"
+    },
+    {
+      "word": "하이에나",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "하이에나",
+      "suggestedWord": "하이에나"
+    },
+    {
+      "word": "너구리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "너구리",
+      "suggestedWord": "너구리"
+    },
+    {
+      "word": "두더지",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "두더지",
+      "suggestedWord": "두더지"
+    },
+    {
+      "word": "다람쥐",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "다람쥐",
+      "suggestedWord": "다람쥐"
+    },
+    {
+      "word": "청설모",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "청설모",
+      "suggestedWord": "청설모"
+    },
+    {
+      "word": "박쥐",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "박쥐",
+      "suggestedWord": "박쥐"
+    },
+    {
+      "word": "돌고래",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "돌고래",
+      "suggestedWord": "돌고래"
+    },
+    {
+      "word": "범고래",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "범고래",
+      "suggestedWord": "범고래"
+    },
+    {
+      "word": "가오리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "가오리",
+      "suggestedWord": "가오리"
+    },
+    {
+      "word": "해마",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "해마",
+      "suggestedWord": "해마"
+    },
+    {
+      "word": "연어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "연어",
+      "suggestedWord": "연어"
+    },
+    {
+      "word": "참치",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "참치",
+      "suggestedWord": "참치"
+    },
+    {
+      "word": "광어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "광어",
+      "suggestedWord": "광어"
+    },
+    {
+      "word": "붕어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "붕어",
+      "suggestedWord": "붕어"
+    },
+    {
+      "word": "잉어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "잉어",
+      "suggestedWord": "잉어"
+    },
+    {
+      "word": "금붕어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "금붕어",
+      "suggestedWord": "금붕어"
+    },
+    {
+      "word": "메추리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "메추리",
+      "suggestedWord": "메추리"
+    },
+    {
+      "word": "타조",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "타조",
+      "suggestedWord": "타조"
+    },
+    {
+      "word": "공작",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "공작",
+      "suggestedWord": "공작"
+    },
+    {
+      "word": "앵무새",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "앵무새",
+      "suggestedWord": "앵무새"
+    },
+    {
+      "word": "햄스터",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "햄스터",
+      "suggestedWord": "햄스터"
+    },
+    {
+      "word": "친칠라",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "친칠라",
+      "suggestedWord": "친칠라"
+    },
+    {
+      "word": "순록",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "순록",
+      "suggestedWord": "순록"
+    },
+    {
+      "word": "물개",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "물개",
+      "suggestedWord": "물개"
+    },
+    {
+      "word": "수달",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "수달",
+      "suggestedWord": "수달"
+    },
+    {
+      "word": "비버",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "비버",
+      "suggestedWord": "비버"
+    },
+    {
+      "word": "고슴도치",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "고슴도치",
+      "suggestedWord": "고슴도치"
+    },
+    {
+      "word": "플라밍고",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "플라밍고",
+      "suggestedWord": "플라밍고"
+    },
+    {
+      "word": "백조",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "백조",
+      "suggestedWord": "백조"
+    },
+    {
+      "word": "까치",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "까치",
+      "suggestedWord": "까치"
+    },
+    {
+      "word": "까마귀",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "까마귀",
+      "suggestedWord": "까마귀"
+    },
+    {
+      "word": "올빼미",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "올빼미",
+      "suggestedWord": "올빼미"
+    },
+    {
+      "word": "부엉이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "부엉이",
+      "suggestedWord": "부엉이"
+    },
+    {
+      "word": "제비",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "제비",
+      "suggestedWord": "제비"
+    },
+    {
+      "word": "뻐꾸기",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "뻐꾸기",
+      "suggestedWord": "뻐꾸기"
+    },
+    {
+      "word": "개구리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "개구리",
+      "suggestedWord": "개구리"
+    },
+    {
+      "word": "두꺼비",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "두꺼비",
+      "suggestedWord": "두꺼비"
+    },
+    {
+      "word": "칠면조",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "칠면조",
+      "suggestedWord": "칠면조"
+    },
+    {
+      "word": "오소리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "오소리",
+      "suggestedWord": "오소리"
+    },
+    {
+      "word": "족제비",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "족제비",
+      "suggestedWord": "족제비"
+    },
+    {
+      "word": "멧돼지",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "멧돼지",
+      "suggestedWord": "멧돼지"
+    },
+    {
+      "word": "산양",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "산양",
+      "suggestedWord": "산양"
+    },
+    {
+      "word": "재규어",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "재규어",
+      "suggestedWord": "재규어"
+    },
+    {
+      "word": "수리부엉이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "수리부엉이",
+      "suggestedWord": "수리부엉이"
+    },
+    {
+      "word": "물총새",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "물총새",
+      "suggestedWord": "물총새"
+    },
+    {
+      "word": "왜가리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "왜가리",
+      "suggestedWord": "왜가리"
+    },
+    {
+      "word": "도롱뇽",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "도롱뇽",
+      "suggestedWord": "도롱뇽"
+    },
+    {
+      "word": "딱따구리",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "딱따구리",
+      "suggestedWord": "딱따구리"
+    },
+    {
+      "word": "불곰",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "불곰",
+      "suggestedWord": "불곰"
+    },
+    {
+      "word": "대게",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "대게",
+      "suggestedWord": "대게"
+    },
+    {
+      "word": "칠성벌",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "송골매",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "송골매",
+      "suggestedWord": "송골매"
+    },
+    {
+      "word": "수탉",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "수탉",
+      "suggestedWord": "수탉"
+    },
+    {
+      "word": "젖소",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "젖소",
+      "suggestedWord": "젖소"
+    },
+    {
+      "word": "준마",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "준마",
+      "suggestedWord": "준마"
+    },
+    {
+      "word": "구렁이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "stdict",
+      "matchedForm": "구렁이",
+      "suggestedWord": "구렁이"
+    },
+    {
+      "word": "꿩돌이",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "황소",
+      "categoryKey": "animals",
+      "categoryName": "동물",
+      "status": "opendict",
+      "matchedForm": "황소",
+      "suggestedWord": "황소"
+    },
+    {
+      "word": "김치찌개",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "김치찌개",
+      "suggestedWord": "김치찌개"
+    },
+    {
+      "word": "된장찌개",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "된장찌개",
+      "suggestedWord": "된장찌개"
+    },
+    {
+      "word": "김밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "김밥",
+      "suggestedWord": "김밥"
+    },
+    {
+      "word": "김치",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "김치",
+      "suggestedWord": "김치"
+    },
+    {
+      "word": "비빔밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "비빔밥",
+      "suggestedWord": "비빔밥"
+    },
+    {
+      "word": "볶음밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "볶음밥",
+      "suggestedWord": "볶음밥"
+    },
+    {
+      "word": "떡볶이",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "떡볶이",
+      "suggestedWord": "떡볶이"
+    },
+    {
+      "word": "불고기",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "불고기",
+      "suggestedWord": "불고기"
+    },
+    {
+      "word": "라면",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "라면",
+      "suggestedWord": "라면"
+    },
+    {
+      "word": "잡채",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "잡채",
+      "suggestedWord": "잡채"
+    },
+    {
+      "word": "칼국수",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "칼국수",
+      "suggestedWord": "칼국수"
+    },
+    {
+      "word": "만두",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "만두",
+      "suggestedWord": "만두"
+    },
+    {
+      "word": "삼겹살",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "삼겹살",
+      "suggestedWord": "삼겹살"
+    },
+    {
+      "word": "갈비",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "갈비",
+      "suggestedWord": "갈비"
+    },
+    {
+      "word": "삼계탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "삼계탕",
+      "suggestedWord": "삼계탕"
+    },
+    {
+      "word": "순두부",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "순두부",
+      "suggestedWord": "순두부"
+    },
+    {
+      "word": "냉면",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "냉면",
+      "suggestedWord": "냉면"
+    },
+    {
+      "word": "짜장면",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "짜장면",
+      "suggestedWord": "짜장면"
+    },
+    {
+      "word": "짬뽕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "짬뽕",
+      "suggestedWord": "짬뽕"
+    },
+    {
+      "word": "탕수육",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "탕수육",
+      "suggestedWord": "탕수육"
+    },
+    {
+      "word": "깐풍기",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "깐풍기",
+      "suggestedWord": "깐풍기"
+    },
+    {
+      "word": "갈비탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "갈비탕",
+      "suggestedWord": "갈비탕"
+    },
+    {
+      "word": "설렁탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "설렁탕",
+      "suggestedWord": "설렁탕"
+    },
+    {
+      "word": "육개장",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "육개장",
+      "suggestedWord": "육개장"
+    },
+    {
+      "word": "곰탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "곰탕",
+      "suggestedWord": "곰탕"
+    },
+    {
+      "word": "해물탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "해물탕",
+      "suggestedWord": "해물탕"
+    },
+    {
+      "word": "보쌈",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "보쌈",
+      "suggestedWord": "보쌈"
+    },
+    {
+      "word": "족발",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "족발",
+      "suggestedWord": "족발"
+    },
+    {
+      "word": "순대",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "순대",
+      "suggestedWord": "순대"
+    },
+    {
+      "word": "국밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "국밥",
+      "suggestedWord": "국밥"
+    },
+    {
+      "word": "미역국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "미역국",
+      "suggestedWord": "미역국"
+    },
+    {
+      "word": "된장국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "된장국",
+      "suggestedWord": "된장국"
+    },
+    {
+      "word": "계란찜",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "계란찜",
+      "suggestedWord": "계란찜"
+    },
+    {
+      "word": "계란말이",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "계란말이",
+      "suggestedWord": "계란말이"
+    },
+    {
+      "word": "제육볶음",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "제육볶음",
+      "suggestedWord": "제육볶음"
+    },
+    {
+      "word": "닭갈비",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "닭갈비",
+      "suggestedWord": "닭갈비"
+    },
+    {
+      "word": "닭볶음",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "닭볶음",
+      "suggestedWord": "닭볶음"
+    },
+    {
+      "word": "호떡",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "호떡",
+      "suggestedWord": "호떡"
+    },
+    {
+      "word": "붕어빵",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "붕어빵",
+      "suggestedWord": "붕어빵"
+    },
+    {
+      "word": "김치전",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "김치전",
+      "suggestedWord": "김치전"
+    },
+    {
+      "word": "파전",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "파전",
+      "suggestedWord": "파전"
+    },
+    {
+      "word": "해물파전",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "해물파전",
+      "suggestedWord": "해물파전"
+    },
+    {
+      "word": "감자전",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "감자전",
+      "suggestedWord": "감자전"
+    },
+    {
+      "word": "빈대떡",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "빈대떡",
+      "suggestedWord": "빈대떡"
+    },
+    {
+      "word": "전복죽",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "전복죽",
+      "suggestedWord": "전복죽"
+    },
+    {
+      "word": "호박죽",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "호박죽",
+      "suggestedWord": "호박죽"
+    },
+    {
+      "word": "팥죽",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "팥죽",
+      "suggestedWord": "팥죽"
+    },
+    {
+      "word": "인절미",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "인절미",
+      "suggestedWord": "인절미"
+    },
+    {
+      "word": "송편",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "송편",
+      "suggestedWord": "송편"
+    },
+    {
+      "word": "경단",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "경단",
+      "suggestedWord": "경단"
+    },
+    {
+      "word": "식혜",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "식혜",
+      "suggestedWord": "식혜"
+    },
+    {
+      "word": "수정과",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "수정과",
+      "suggestedWord": "수정과"
+    },
+    {
+      "word": "부대찌개",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "부대찌개",
+      "suggestedWord": "부대찌개"
+    },
+    {
+      "word": "청국장",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "청국장",
+      "suggestedWord": "청국장"
+    },
+    {
+      "word": "순두부찌개",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "순두부찌개",
+      "suggestedWord": "순두부찌개"
+    },
+    {
+      "word": "닭죽",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "닭죽",
+      "suggestedWord": "닭죽"
+    },
+    {
+      "word": "오징어볶음",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "오징어볶음",
+      "suggestedWord": "오징어볶음"
+    },
+    {
+      "word": "어묵국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "어묵국",
+      "suggestedWord": "어묵국"
+    },
+    {
+      "word": "떡국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "떡국",
+      "suggestedWord": "떡국"
+    },
+    {
+      "word": "떡갈비",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "떡갈비",
+      "suggestedWord": "떡갈비"
+    },
+    {
+      "word": "장어구이",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "장어구이",
+      "suggestedWord": "장어구이"
+    },
+    {
+      "word": "회덮밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "회덮밥",
+      "suggestedWord": "회덮밥"
+    },
+    {
+      "word": "초밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "초밥",
+      "suggestedWord": "초밥"
+    },
+    {
+      "word": "튀김",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "튀김",
+      "suggestedWord": "튀김"
+    },
+    {
+      "word": "카레",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "카레",
+      "suggestedWord": "카레"
+    },
+    {
+      "word": "스테이크",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "스테이크",
+      "suggestedWord": "스테이크"
+    },
+    {
+      "word": "파스타",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "파스타",
+      "suggestedWord": "파스타"
+    },
+    {
+      "word": "피자",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "피자",
+      "suggestedWord": "피자"
+    },
+    {
+      "word": "샌드위치",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "샌드위치",
+      "suggestedWord": "샌드위치"
+    },
+    {
+      "word": "토스트",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "토스트",
+      "suggestedWord": "토스트"
+    },
+    {
+      "word": "오므라이스",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "오므라이스",
+      "suggestedWord": "오므라이스"
+    },
+    {
+      "word": "주먹밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "주먹밥",
+      "suggestedWord": "주먹밥"
+    },
+    {
+      "word": "김치볶음밥",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "김치볶음밥",
+      "suggestedWord": "김치볶음밥"
+    },
+    {
+      "word": "두부조림",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "두부조림",
+      "suggestedWord": "두부조림"
+    },
+    {
+      "word": "나물무침",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "나물무침",
+      "suggestedWord": "나물무침"
+    },
+    {
+      "word": "시래기",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "시래기",
+      "suggestedWord": "시래기"
+    },
+    {
+      "word": "콩나물국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "콩나물국",
+      "suggestedWord": "콩나물국"
+    },
+    {
+      "word": "무국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "무국",
+      "suggestedWord": "무국"
+    },
+    {
+      "word": "감자탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "감자탕",
+      "suggestedWord": "감자탕"
+    },
+    {
+      "word": "닭볶음탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "닭볶음탕",
+      "suggestedWord": "닭볶음탕"
+    },
+    {
+      "word": "해물찜",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "해물찜",
+      "suggestedWord": "해물찜"
+    },
+    {
+      "word": "아구찜",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "아구찜",
+      "suggestedWord": "아구찜"
+    },
+    {
+      "word": "찜닭",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "찜닭",
+      "suggestedWord": "찜닭"
+    },
+    {
+      "word": "약식",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "약식",
+      "suggestedWord": "약식"
+    },
+    {
+      "word": "약과",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "약과",
+      "suggestedWord": "약과"
+    },
+    {
+      "word": "호박전",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "호박전",
+      "suggestedWord": "호박전"
+    },
+    {
+      "word": "동그랑땡",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "동그랑땡",
+      "suggestedWord": "동그랑땡"
+    },
+    {
+      "word": "만두국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "만두국",
+      "suggestedWord": "만두국"
+    },
+    {
+      "word": "냉이국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "냉이국",
+      "suggestedWord": "냉이국"
+    },
+    {
+      "word": "콩비지찌개",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "매운탕",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "매운탕",
+      "suggestedWord": "매운탕"
+    },
+    {
+      "word": "조개구이",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "조개구이",
+      "suggestedWord": "조개구이"
+    },
+    {
+      "word": "소고기국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "차돌박이",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "차돌박이",
+      "suggestedWord": "차돌박이"
+    },
+    {
+      "word": "불닭볶음면",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "치즈볼",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "치즈볼",
+      "suggestedWord": "치즈볼"
+    },
+    {
+      "word": "핫도그",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "핫도그",
+      "suggestedWord": "핫도그"
+    },
+    {
+      "word": "순대국",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "순대국",
+      "suggestedWord": "순대국"
+    },
+    {
+      "word": "곱창구이",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "opendict",
+      "matchedForm": "곱창구이",
+      "suggestedWord": "곱창구이"
+    },
+    {
+      "word": "비빔국수",
+      "categoryKey": "food",
+      "categoryName": "음식",
+      "status": "stdict",
+      "matchedForm": "비빔국수",
+      "suggestedWord": "비빔국수"
+    },
+    {
+      "word": "사과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "사과",
+      "suggestedWord": "사과"
+    },
+    {
+      "word": "포도",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "포도",
+      "suggestedWord": "포도"
+    },
+    {
+      "word": "수박",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "수박",
+      "suggestedWord": "수박"
+    },
+    {
+      "word": "딸기",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "딸기",
+      "suggestedWord": "딸기"
+    },
+    {
+      "word": "복숭아",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "복숭아",
+      "suggestedWord": "복숭아"
+    },
+    {
+      "word": "오렌지",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "오렌지",
+      "suggestedWord": "오렌지"
+    },
+    {
+      "word": "레몬",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "레몬",
+      "suggestedWord": "레몬"
+    },
+    {
+      "word": "라임",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "라임",
+      "suggestedWord": "라임"
+    },
+    {
+      "word": "자몽",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "자몽",
+      "suggestedWord": "자몽"
+    },
+    {
+      "word": "한라봉",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "한라봉",
+      "suggestedWord": "한라봉"
+    },
+    {
+      "word": "천혜향",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "천혜향",
+      "suggestedWord": "천혜향"
+    },
+    {
+      "word": "유자",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "유자",
+      "suggestedWord": "유자"
+    },
+    {
+      "word": "홍시",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "홍시",
+      "suggestedWord": "홍시"
+    },
+    {
+      "word": "단감",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "단감",
+      "suggestedWord": "단감"
+    },
+    {
+      "word": "곶감",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "곶감",
+      "suggestedWord": "곶감"
+    },
+    {
+      "word": "키위",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "키위",
+      "suggestedWord": "키위"
+    },
+    {
+      "word": "망고",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "망고",
+      "suggestedWord": "망고"
+    },
+    {
+      "word": "바나나",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "바나나",
+      "suggestedWord": "바나나"
+    },
+    {
+      "word": "파인애플",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "파인애플",
+      "suggestedWord": "파인애플"
+    },
+    {
+      "word": "용과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "용과",
+      "suggestedWord": "용과"
+    },
+    {
+      "word": "리치",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "리치",
+      "suggestedWord": "리치"
+    },
+    {
+      "word": "용안",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "용안",
+      "suggestedWord": "용안"
+    },
+    {
+      "word": "코코넛",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "코코넛",
+      "suggestedWord": "코코넛"
+    },
+    {
+      "word": "석류",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "석류",
+      "suggestedWord": "석류"
+    },
+    {
+      "word": "무화과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "무화과",
+      "suggestedWord": "무화과"
+    },
+    {
+      "word": "블루베리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "블루베리",
+      "suggestedWord": "블루베리"
+    },
+    {
+      "word": "라즈베리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "라즈베리",
+      "suggestedWord": "라즈베리"
+    },
+    {
+      "word": "산딸기",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "산딸기",
+      "suggestedWord": "산딸기"
+    },
+    {
+      "word": "오디",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "오디",
+      "suggestedWord": "오디"
+    },
+    {
+      "word": "다래",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "다래",
+      "suggestedWord": "다래"
+    },
+    {
+      "word": "구기자",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "구기자",
+      "suggestedWord": "구기자"
+    },
+    {
+      "word": "오미자",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "오미자",
+      "suggestedWord": "오미자"
+    },
+    {
+      "word": "매실",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "매실",
+      "suggestedWord": "매실"
+    },
+    {
+      "word": "자두",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "자두",
+      "suggestedWord": "자두"
+    },
+    {
+      "word": "체리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "체리",
+      "suggestedWord": "체리"
+    },
+    {
+      "word": "아보카도",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "아보카도",
+      "suggestedWord": "아보카도"
+    },
+    {
+      "word": "참외",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "참외",
+      "suggestedWord": "참외"
+    },
+    {
+      "word": "멜론",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "멜론",
+      "suggestedWord": "멜론"
+    },
+    {
+      "word": "방울토마토",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "방울토마토",
+      "suggestedWord": "방울토마토"
+    },
+    {
+      "word": "토마토",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "토마토",
+      "suggestedWord": "토마토"
+    },
+    {
+      "word": "두리안",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "두리안",
+      "suggestedWord": "두리안"
+    },
+    {
+      "word": "망고스틴",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "망고스틴",
+      "suggestedWord": "망고스틴"
+    },
+    {
+      "word": "패션프루트",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "패션프루트",
+      "suggestedWord": "패션프루트"
+    },
+    {
+      "word": "구아바",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "서양배",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "서양배",
+      "suggestedWord": "서양배"
+    },
+    {
+      "word": "청포도",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "청포도",
+      "suggestedWord": "청포도"
+    },
+    {
+      "word": "적포도",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "샤인머스캣",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "샤인머스캣",
+      "suggestedWord": "샤인머스캣"
+    },
+    {
+      "word": "금귤",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "금귤",
+      "suggestedWord": "금귤"
+    },
+    {
+      "word": "레드향",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "레드향",
+      "suggestedWord": "레드향"
+    },
+    {
+      "word": "탱자",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "탱자",
+      "suggestedWord": "탱자"
+    },
+    {
+      "word": "머루",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "머루",
+      "suggestedWord": "머루"
+    },
+    {
+      "word": "복분자",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "복분자",
+      "suggestedWord": "복분자"
+    },
+    {
+      "word": "산수유",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "산수유",
+      "suggestedWord": "산수유"
+    },
+    {
+      "word": "왕귤",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "황금향",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "설향",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "밀감",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "밀감",
+      "suggestedWord": "밀감"
+    },
+    {
+      "word": "청귤",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "청귤",
+      "suggestedWord": "청귤"
+    },
+    {
+      "word": "살구",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "살구",
+      "suggestedWord": "살구"
+    },
+    {
+      "word": "넥타린",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "대추",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "대추",
+      "suggestedWord": "대추"
+    },
+    {
+      "word": "블랙베리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "블랙베리",
+      "suggestedWord": "블랙베리"
+    },
+    {
+      "word": "크랜베리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "크랜베리",
+      "suggestedWord": "크랜베리"
+    },
+    {
+      "word": "그린키위",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "그린키위",
+      "suggestedWord": "그린키위"
+    },
+    {
+      "word": "골드키위",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "골드키위",
+      "suggestedWord": "골드키위"
+    },
+    {
+      "word": "적토마토",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "홍감",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "홍감",
+      "suggestedWord": "홍감"
+    },
+    {
+      "word": "청매실",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "홍매실",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "금감",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "금감",
+      "suggestedWord": "금감"
+    },
+    {
+      "word": "부부감",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "앵두",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "앵두",
+      "suggestedWord": "앵두"
+    },
+    {
+      "word": "모과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "모과",
+      "suggestedWord": "모과"
+    },
+    {
+      "word": "감귤",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "감귤",
+      "suggestedWord": "감귤"
+    },
+    {
+      "word": "거봉",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "거봉",
+      "suggestedWord": "거봉"
+    },
+    {
+      "word": "후지",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "후지",
+      "suggestedWord": "후지"
+    },
+    {
+      "word": "홍로",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "홍로",
+      "suggestedWord": "홍로"
+    },
+    {
+      "word": "추황",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "태추",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "람부탄",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "람부탄",
+      "suggestedWord": "람부탄"
+    },
+    {
+      "word": "골드바",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "골드바",
+      "suggestedWord": "골드바"
+    },
+    {
+      "word": "노랑배",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "산마귤",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "구즈베리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "청송사과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "외대앵두",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "하우스딸기",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "하우스딸기",
+      "suggestedWord": "하우스딸기"
+    },
+    {
+      "word": "왕딸기",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "아오리",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "아오리",
+      "suggestedWord": "아오리"
+    },
+    {
+      "word": "부사",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "부사",
+      "suggestedWord": "부사"
+    },
+    {
+      "word": "홍사과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "조각배",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "조각배",
+      "suggestedWord": "조각배"
+    },
+    {
+      "word": "청사과",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "청사과",
+      "suggestedWord": "청사과"
+    },
+    {
+      "word": "신고딸기",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "하우스멜론",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "플루오트",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "배즙",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "opendict",
+      "matchedForm": "배즙",
+      "suggestedWord": "배즙"
+    },
+    {
+      "word": "홍배",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "용설란",
+      "categoryKey": "fruits",
+      "categoryName": "과일",
+      "status": "stdict",
+      "matchedForm": "용설란",
+      "suggestedWord": "용설란"
+    },
+    {
+      "word": "의사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "의사",
+      "suggestedWord": "의사"
+    },
+    {
+      "word": "간호사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "간호사",
+      "suggestedWord": "간호사"
+    },
+    {
+      "word": "교사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "교사",
+      "suggestedWord": "교사"
+    },
+    {
+      "word": "요리사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "요리사",
+      "suggestedWord": "요리사"
+    },
+    {
+      "word": "경찰",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "경찰",
+      "suggestedWord": "경찰"
+    },
+    {
+      "word": "소방관",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "소방관",
+      "suggestedWord": "소방관"
+    },
+    {
+      "word": "변호사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "변호사",
+      "suggestedWord": "변호사"
+    },
+    {
+      "word": "기자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "기자",
+      "suggestedWord": "기자"
+    },
+    {
+      "word": "개발자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "개발자",
+      "suggestedWord": "개발자"
+    },
+    {
+      "word": "디자이너",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "디자이너",
+      "suggestedWord": "디자이너"
+    },
+    {
+      "word": "운동선수",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "운동선수",
+      "suggestedWord": "운동선수"
+    },
+    {
+      "word": "약사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "약사",
+      "suggestedWord": "약사"
+    },
+    {
+      "word": "치과의사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "치과의사",
+      "suggestedWord": "치과의사"
+    },
+    {
+      "word": "한의사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "한의사",
+      "suggestedWord": "한의사"
+    },
+    {
+      "word": "수의사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "수의사",
+      "suggestedWord": "수의사"
+    },
+    {
+      "word": "회계사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "회계사",
+      "suggestedWord": "회계사"
+    },
+    {
+      "word": "세무사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "세무사",
+      "suggestedWord": "세무사"
+    },
+    {
+      "word": "판사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "판사",
+      "suggestedWord": "판사"
+    },
+    {
+      "word": "검사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "검사",
+      "suggestedWord": "검사"
+    },
+    {
+      "word": "군인",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "군인",
+      "suggestedWord": "군인"
+    },
+    {
+      "word": "선원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "선원",
+      "suggestedWord": "선원"
+    },
+    {
+      "word": "조종사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "조종사",
+      "suggestedWord": "조종사"
+    },
+    {
+      "word": "승무원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "승무원",
+      "suggestedWord": "승무원"
+    },
+    {
+      "word": "기사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "기사",
+      "suggestedWord": "기사"
+    },
+    {
+      "word": "택배기사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "미용사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "미용사",
+      "suggestedWord": "미용사"
+    },
+    {
+      "word": "네일리스트",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "네일리스트",
+      "suggestedWord": "네일리스트"
+    },
+    {
+      "word": "마사지사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "마사지사",
+      "suggestedWord": "마사지사"
+    },
+    {
+      "word": "바리스타",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "바리스타",
+      "suggestedWord": "바리스타"
+    },
+    {
+      "word": "제빵사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "제빵사",
+      "suggestedWord": "제빵사"
+    },
+    {
+      "word": "셰프",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "셰프",
+      "suggestedWord": "셰프"
+    },
+    {
+      "word": "영화감독",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "영화감독",
+      "suggestedWord": "영화감독"
+    },
+    {
+      "word": "배우",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "배우",
+      "suggestedWord": "배우"
+    },
+    {
+      "word": "가수",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "가수",
+      "suggestedWord": "가수"
+    },
+    {
+      "word": "작곡가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "작곡가",
+      "suggestedWord": "작곡가"
+    },
+    {
+      "word": "작가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "작가",
+      "suggestedWord": "작가"
+    },
+    {
+      "word": "번역가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "번역가",
+      "suggestedWord": "번역가"
+    },
+    {
+      "word": "통역사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "통역사",
+      "suggestedWord": "통역사"
+    },
+    {
+      "word": "사진작가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "사진작가",
+      "suggestedWord": "사진작가"
+    },
+    {
+      "word": "일러스트레이터",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "일러스트레이터",
+      "suggestedWord": "일러스트레이터"
+    },
+    {
+      "word": "건축가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "건축가",
+      "suggestedWord": "건축가"
+    },
+    {
+      "word": "인테리어디자이너",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "인테리어디자이너",
+      "suggestedWord": "인테리어디자이너"
+    },
+    {
+      "word": "목수",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "목수",
+      "suggestedWord": "목수"
+    },
+    {
+      "word": "전기기사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "전기기사",
+      "suggestedWord": "전기기사"
+    },
+    {
+      "word": "배관공",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "배관공",
+      "suggestedWord": "배관공"
+    },
+    {
+      "word": "용접공",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "용접공",
+      "suggestedWord": "용접공"
+    },
+    {
+      "word": "농부",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "농부",
+      "suggestedWord": "농부"
+    },
+    {
+      "word": "어부",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "어부",
+      "suggestedWord": "어부"
+    },
+    {
+      "word": "목동",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "목동",
+      "suggestedWord": "목동"
+    },
+    {
+      "word": "교수",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "교수",
+      "suggestedWord": "교수"
+    },
+    {
+      "word": "연구원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "연구원",
+      "suggestedWord": "연구원"
+    },
+    {
+      "word": "과학자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "과학자",
+      "suggestedWord": "과학자"
+    },
+    {
+      "word": "엔지니어",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "엔지니어",
+      "suggestedWord": "엔지니어"
+    },
+    {
+      "word": "프로그래머",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "프로그래머",
+      "suggestedWord": "프로그래머"
+    },
+    {
+      "word": "데이터분석가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "마케터",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "마케터",
+      "suggestedWord": "마케터"
+    },
+    {
+      "word": "영업사원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "영업사원",
+      "suggestedWord": "영업사원"
+    },
+    {
+      "word": "상담사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "상담사",
+      "suggestedWord": "상담사"
+    },
+    {
+      "word": "심리상담사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "심리상담사",
+      "suggestedWord": "심리상담사"
+    },
+    {
+      "word": "사회복지사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "사회복지사",
+      "suggestedWord": "사회복지사"
+    },
+    {
+      "word": "유치원교사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "특수교사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "특수교사",
+      "suggestedWord": "특수교사"
+    },
+    {
+      "word": "운동코치",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "심판",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "심판",
+      "suggestedWord": "심판"
+    },
+    {
+      "word": "헬스트레이너",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "헬스트레이너",
+      "suggestedWord": "헬스트레이너"
+    },
+    {
+      "word": "약국직원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "치위생사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "치위생사",
+      "suggestedWord": "치위생사"
+    },
+    {
+      "word": "방사선사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "방사선사",
+      "suggestedWord": "방사선사"
+    },
+    {
+      "word": "응급구조사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "응급구조사",
+      "suggestedWord": "응급구조사"
+    },
+    {
+      "word": "파라메딕",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "도서관사서",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "큐레이터",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "큐레이터",
+      "suggestedWord": "큐레이터"
+    },
+    {
+      "word": "안내원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "안내원",
+      "suggestedWord": "안내원"
+    },
+    {
+      "word": "호텔리어",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "호텔리어",
+      "suggestedWord": "호텔리어"
+    },
+    {
+      "word": "여행가이드",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "통역안내원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "은행원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "은행원",
+      "suggestedWord": "은행원"
+    },
+    {
+      "word": "투자자문가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "보험설계사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "보험설계사",
+      "suggestedWord": "보험설계사"
+    },
+    {
+      "word": "부동산중개인",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "부동산중개인",
+      "suggestedWord": "부동산중개인"
+    },
+    {
+      "word": "공인중개사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "공인중개사",
+      "suggestedWord": "공인중개사"
+    },
+    {
+      "word": "법무사",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "법무사",
+      "suggestedWord": "법무사"
+    },
+    {
+      "word": "공무원",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "공무원",
+      "suggestedWord": "공무원"
+    },
+    {
+      "word": "외교관",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "외교관",
+      "suggestedWord": "외교관"
+    },
+    {
+      "word": "통역관",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "통역관",
+      "suggestedWord": "통역관"
+    },
+    {
+      "word": "기상캐스터",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "기상캐스터",
+      "suggestedWord": "기상캐스터"
+    },
+    {
+      "word": "아나운서",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "아나운서",
+      "suggestedWord": "아나운서"
+    },
+    {
+      "word": "진행자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "진행자",
+      "suggestedWord": "진행자"
+    },
+    {
+      "word": "유튜버",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "스트리머",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "스트리머",
+      "suggestedWord": "스트리머"
+    },
+    {
+      "word": "게임개발자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "웹디자이너",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "웹디자이너",
+      "suggestedWord": "웹디자이너"
+    },
+    {
+      "word": "편집자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "편집자",
+      "suggestedWord": "편집자"
+    },
+    {
+      "word": "출판편집자",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "애니메이터",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "애니메이터",
+      "suggestedWord": "애니메이터"
+    },
+    {
+      "word": "성우",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "성우",
+      "suggestedWord": "성우"
+    },
+    {
+      "word": "모델",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "모델",
+      "suggestedWord": "모델"
+    },
+    {
+      "word": "패션디자이너",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "패션디자이너",
+      "suggestedWord": "패션디자이너"
+    },
+    {
+      "word": "조각가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "stdict",
+      "matchedForm": "조각가",
+      "suggestedWord": "조각가"
+    },
+    {
+      "word": "화가",
+      "categoryKey": "jobs",
+      "categoryName": "직업",
+      "status": "opendict",
+      "matchedForm": "화가",
+      "suggestedWord": "화가"
+    },
+    {
+      "word": "바다",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "바다",
+      "suggestedWord": "바다"
+    },
+    {
+      "word": "바람",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "바람",
+      "suggestedWord": "바람"
+    },
+    {
+      "word": "나무",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "나무",
+      "suggestedWord": "나무"
+    },
+    {
+      "word": "구름",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "구름",
+      "suggestedWord": "구름"
+    },
+    {
+      "word": "번개",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "번개",
+      "suggestedWord": "번개"
+    },
+    {
+      "word": "천둥",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "천둥",
+      "suggestedWord": "천둥"
+    },
+    {
+      "word": "무지개",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "무지개",
+      "suggestedWord": "무지개"
+    },
+    {
+      "word": "새벽",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "새벽",
+      "suggestedWord": "새벽"
+    },
+    {
+      "word": "황혼",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "황혼",
+      "suggestedWord": "황혼"
+    },
+    {
+      "word": "일출",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "일출",
+      "suggestedWord": "일출"
+    },
+    {
+      "word": "일몰",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "일몰",
+      "suggestedWord": "일몰"
+    },
+    {
+      "word": "호수",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "호수",
+      "suggestedWord": "호수"
+    },
+    {
+      "word": "연못",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "연못",
+      "suggestedWord": "연못"
+    },
+    {
+      "word": "폭포",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "폭포",
+      "suggestedWord": "폭포"
+    },
+    {
+      "word": "계곡",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "계곡",
+      "suggestedWord": "계곡"
+    },
+    {
+      "word": "들판",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "들판",
+      "suggestedWord": "들판"
+    },
+    {
+      "word": "초원",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "초원",
+      "suggestedWord": "초원"
+    },
+    {
+      "word": "사막",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "사막",
+      "suggestedWord": "사막"
+    },
+    {
+      "word": "반도",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "반도",
+      "suggestedWord": "반도"
+    },
+    {
+      "word": "해변",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "해변",
+      "suggestedWord": "해변"
+    },
+    {
+      "word": "모래",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "모래",
+      "suggestedWord": "모래"
+    },
+    {
+      "word": "바위",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "바위",
+      "suggestedWord": "바위"
+    },
+    {
+      "word": "동굴",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "동굴",
+      "suggestedWord": "동굴"
+    },
+    {
+      "word": "화산",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "화산",
+      "suggestedWord": "화산"
+    },
+    {
+      "word": "용암",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "용암",
+      "suggestedWord": "용암"
+    },
+    {
+      "word": "지진",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "지진",
+      "suggestedWord": "지진"
+    },
+    {
+      "word": "쓰나미",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "쓰나미",
+      "suggestedWord": "쓰나미"
+    },
+    {
+      "word": "태풍",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "태풍",
+      "suggestedWord": "태풍"
+    },
+    {
+      "word": "안개",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "안개",
+      "suggestedWord": "안개"
+    },
+    {
+      "word": "이슬",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "이슬",
+      "suggestedWord": "이슬"
+    },
+    {
+      "word": "서리",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "서리",
+      "suggestedWord": "서리"
+    },
+    {
+      "word": "얼음",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "얼음",
+      "suggestedWord": "얼음"
+    },
+    {
+      "word": "빙하",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "빙하",
+      "suggestedWord": "빙하"
+    },
+    {
+      "word": "강물",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "강물",
+      "suggestedWord": "강물"
+    },
+    {
+      "word": "바닷물",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "바닷물",
+      "suggestedWord": "바닷물"
+    },
+    {
+      "word": "민물",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "민물",
+      "suggestedWord": "민물"
+    },
+    {
+      "word": "샘물",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "샘물",
+      "suggestedWord": "샘물"
+    },
+    {
+      "word": "지하수",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "지하수",
+      "suggestedWord": "지하수"
+    },
+    {
+      "word": "습지",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "습지",
+      "suggestedWord": "습지"
+    },
+    {
+      "word": "갯벌",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "갯벌",
+      "suggestedWord": "갯벌"
+    },
+    {
+      "word": "산맥",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "산맥",
+      "suggestedWord": "산맥"
+    },
+    {
+      "word": "고원",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "고원",
+      "suggestedWord": "고원"
+    },
+    {
+      "word": "협곡",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "협곡",
+      "suggestedWord": "협곡"
+    },
+    {
+      "word": "절벽",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "절벽",
+      "suggestedWord": "절벽"
+    },
+    {
+      "word": "언덕",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "언덕",
+      "suggestedWord": "언덕"
+    },
+    {
+      "word": "들녘",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "들녘",
+      "suggestedWord": "들녘"
+    },
+    {
+      "word": "들꽃",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "들꽃",
+      "suggestedWord": "들꽃"
+    },
+    {
+      "word": "꽃잎",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "꽃잎",
+      "suggestedWord": "꽃잎"
+    },
+    {
+      "word": "가지",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "가지",
+      "suggestedWord": "가지"
+    },
+    {
+      "word": "뿌리",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "뿌리",
+      "suggestedWord": "뿌리"
+    },
+    {
+      "word": "줄기",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "줄기",
+      "suggestedWord": "줄기"
+    },
+    {
+      "word": "열매",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "열매",
+      "suggestedWord": "열매"
+    },
+    {
+      "word": "씨앗",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "씨앗",
+      "suggestedWord": "씨앗"
+    },
+    {
+      "word": "이끼",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "이끼",
+      "suggestedWord": "이끼"
+    },
+    {
+      "word": "대나무",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "대나무",
+      "suggestedWord": "대나무"
+    },
+    {
+      "word": "소나무",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "소나무",
+      "suggestedWord": "소나무"
+    },
+    {
+      "word": "단풍",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "단풍",
+      "suggestedWord": "단풍"
+    },
+    {
+      "word": "낙엽",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "낙엽",
+      "suggestedWord": "낙엽"
+    },
+    {
+      "word": "새싹",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "새싹",
+      "suggestedWord": "새싹"
+    },
+    {
+      "word": "햇살",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "햇살",
+      "suggestedWord": "햇살"
+    },
+    {
+      "word": "그늘",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "그늘",
+      "suggestedWord": "그늘"
+    },
+    {
+      "word": "그림자",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "그림자",
+      "suggestedWord": "그림자"
+    },
+    {
+      "word": "공기",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "공기",
+      "suggestedWord": "공기"
+    },
+    {
+      "word": "오존",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "오존",
+      "suggestedWord": "오존"
+    },
+    {
+      "word": "대기",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "대기",
+      "suggestedWord": "대기"
+    },
+    {
+      "word": "우주",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "우주",
+      "suggestedWord": "우주"
+    },
+    {
+      "word": "은하",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "은하",
+      "suggestedWord": "은하"
+    },
+    {
+      "word": "행성",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "행성",
+      "suggestedWord": "행성"
+    },
+    {
+      "word": "혜성",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "혜성",
+      "suggestedWord": "혜성"
+    },
+    {
+      "word": "유성",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "유성",
+      "suggestedWord": "유성"
+    },
+    {
+      "word": "오로라",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "오로라",
+      "suggestedWord": "오로라"
+    },
+    {
+      "word": "조수",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "조수",
+      "suggestedWord": "조수"
+    },
+    {
+      "word": "파도",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "파도",
+      "suggestedWord": "파도"
+    },
+    {
+      "word": "해일",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "해일",
+      "suggestedWord": "해일"
+    },
+    {
+      "word": "조류",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "조류",
+      "suggestedWord": "조류"
+    },
+    {
+      "word": "암석",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "암석",
+      "suggestedWord": "암석"
+    },
+    {
+      "word": "목초",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "목초",
+      "suggestedWord": "목초"
+    },
+    {
+      "word": "수풀",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "수풀",
+      "suggestedWord": "수풀"
+    },
+    {
+      "word": "하천",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "하천",
+      "suggestedWord": "하천"
+    },
+    {
+      "word": "분지",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "분지",
+      "suggestedWord": "분지"
+    },
+    {
+      "word": "암석지",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "갯풀",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "invalid",
+      "matchedForm": null,
+      "suggestedWord": null
+    },
+    {
+      "word": "들풀",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "들풀",
+      "suggestedWord": "들풀"
+    },
+    {
+      "word": "해안",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "해안",
+      "suggestedWord": "해안"
+    },
+    {
+      "word": "한강",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "한강",
+      "suggestedWord": "한강"
+    },
+    {
+      "word": "산봉우리",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "산봉우리",
+      "suggestedWord": "산봉우리"
+    },
+    {
+      "word": "원시림",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "원시림",
+      "suggestedWord": "원시림"
+    },
+    {
+      "word": "꽃밭",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "꽃밭",
+      "suggestedWord": "꽃밭"
+    },
+    {
+      "word": "소나기",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "소나기",
+      "suggestedWord": "소나기"
+    },
+    {
+      "word": "눈꽃",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "눈꽃",
+      "suggestedWord": "눈꽃"
+    },
+    {
+      "word": "햇볕",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "햇볕",
+      "suggestedWord": "햇볕"
+    },
+    {
+      "word": "달빛",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "달빛",
+      "suggestedWord": "달빛"
+    },
+    {
+      "word": "별빛",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "별빛",
+      "suggestedWord": "별빛"
+    },
+    {
+      "word": "무인도",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "무인도",
+      "suggestedWord": "무인도"
+    },
+    {
+      "word": "돌산",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "돌산",
+      "suggestedWord": "돌산"
+    },
+    {
+      "word": "늪지대",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "늪지대",
+      "suggestedWord": "늪지대"
+    },
+    {
+      "word": "논두렁",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "논두렁",
+      "suggestedWord": "논두렁"
+    },
+    {
+      "word": "텃밭",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "텃밭",
+      "suggestedWord": "텃밭"
+    },
+    {
+      "word": "나뭇잎",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "stdict",
+      "matchedForm": "나뭇잎",
+      "suggestedWord": "나뭇잎"
+    },
+    {
+      "word": "잡초",
+      "categoryKey": "nature",
+      "categoryName": "자연",
+      "status": "opendict",
+      "matchedForm": "잡초",
+      "suggestedWord": "잡초"
+    }
+  ]
+}
