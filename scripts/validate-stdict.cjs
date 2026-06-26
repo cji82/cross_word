@@ -150,9 +150,8 @@ async function validateWordForms(word) {
 }
 
 function loadWords() {
-  const source = fs.readFileSync(path.join(ROOT, 'data', 'categories.js'), 'utf8');
-  // eslint-disable-next-line no-eval
-  const CATEGORIES = eval(`${source}\n; CATEGORIES`);
+  const { loadCategoriesFile } = require('./category-encoding.cjs');
+  const CATEGORIES = loadCategoriesFile(path.join(ROOT, 'data', 'categories.js'));
   const entries = [];
 
   for (const [categoryKey, category] of Object.entries(CATEGORIES)) {

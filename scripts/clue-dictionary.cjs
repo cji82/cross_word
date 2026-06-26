@@ -1,12 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+'use strict';
+
 const https = require('https');
 
-const ROOT = path.join(__dirname, '..');
-const DELAY_MS = 450;
-const PROGRESS_PATH = path.join(__dirname, 'clue-sync-progress.json');
-const REPORT_PATH = path.join(__dirname, 'clue-sync-report.json');
-const FACTUAL_PATH = path.join(__dirname, 'factual-clues.js');
 const MIN_CLUE_LEN = 10;
 const MAX_CLUE_LEN = 25;
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
@@ -21,6 +16,53 @@ const SEARCH_ALIASES = {
   드래곤후르츠: ['용설란', '드래곤프루트'],
 };
 
+const MANUAL_CLUES = {
+  홍로: '붉게 달아 익는 사과 품종',
+  피칸: '피칸나무의 열매로, 견과류의 하나',
+  망아지: '어린 말이라 부르는 동물',
+  송아지: '어린 소라 부르는 동물',
+  민물장어: '민물에 사는 장어류 고기',
+  쭈꾸미: '작은 오징어과 연체동물',
+  민물새우: '민물에 사는 작은 새우',
+  수사슴: '뿔 달린 수컷 사슴',
+  산고양이: '산에서 사는 고양잇과 동물',
+  산양: '산에서 사는 뿔 달린 초식동물',
+  민물게: '민물에 사는 작은 게',
+  열무김치: '열무로 담근 여름 김치',
+  배추김치: '배추로 담근 대표 김치',
+  젓갈: '젓으로 담근 반찬 종류',
+  콩나물무침: '콩나물을 무친 반찬',
+  찐만두: '찜통에 찐 만두 요리',
+  고추장볶음: '고추장에 볶은 요리',
+  멸치젓: '멸치로 담근 젓갈',
+  오징어젓: '오징어로 담근 젓갈',
+  편육: '삶은 고기를 얇게 썬 음식',
+  돈부리: '돼지고기를 얹은 덮밥',
+  파구이: '파를 넣어 구운 요리',
+  호박씨: '호박 열매 속의 씨',
+  해바라기씨: '해바라기에서 나는 씨',
+  건살구: '말려서 만든 살구 건과일',
+  청밤: '아직 익지 않은 푸른 밤',
+  청호두: '아직 덜 익은 푸른 호두',
+  백체리: '흰색 과육의 체리 품종',
+  왕밤: '알이 큰 밤나무 열매',
+  건사과: '말려서 만든 사과 건과일',
+  수박씨: '수박 속에 든 검은 씨',
+  포도씨: '포도 알 속에 든 씨',
+  참외씨: '참외 속에 든 씨앗',
+  산딸: '산에서 나는 작은 딸기',
+  야자: '열대 지방의 야자나무',
+  성악가: '성악으로 노래하는 가수',
+  위성: '행성 주위를 도는 천체',
+  장미: '가시 달린 향기 나는 꽃',
+  산파도: '바다에서 밀려오는 큰 파도',
+  산모래: '바람에 날린 고운 모래',
+  서해: '한반도 서쪽에 있는 바다',
+  늪지: '물이 고인 습한 땅',
+  결빙: '물이 얼어 꽁꽁 어는 현상',
+  등압선: '기압이 같은 지점을 잇는 선',
+};
+
 const CATEGORY_HINTS = {
   animals: /동물|포유|조류|파충|양서|곤충|어류|갑각|과에|목에|류에|과의|설치|맹수|가축|야생/,
   food: /음식|요리|찌개|국수|국밥|반찬|먹|식품|볶|구이|튀김|밥|면|떡|탕|찜/,
@@ -29,16 +71,11 @@ const CATEGORY_HINTS = {
   nature: /현상|지형|지역|하늘|바다|산|강|숲|구름|비|눈|바람|지표|암석|식물|풀|날씨/,
 };
 
-const MANUAL_CLUES = {
-  홍로: '붉게 달아 익는 사과 품종',
-  피칸: '피칸나무의 열매로, 견과류의 하나',
-};
-
 const CATEGORY_NEGATIVE = {
   animals: /술|소주|음식|요리|건물|질병/,
   food: /동물|식물학|질병|병원/,
   fruits: /술|소주|화로|질병|병원|건물/,
-  jobs: /동물|식물|지형|술$/ ,
+  jobs: /동물|식물|지형|술$/,
   nature: /음식|직업|병원|질병|읍|면의|위치해|동에|리에/,
 };
 
@@ -137,9 +174,9 @@ function parseOpendictDefinitions(html, word) {
     if (!isExact && !isCompound) continue;
 
     const disRe = /class="word_dis[^"]*">([^<]+)</g;
-    let match;
-    while ((match = disRe.exec(block)) !== null) {
-      const def = stripHtml(match[1]);
+    let disMatch;
+    while ((disMatch = disRe.exec(block)) !== null) {
+      const def = stripHtml(disMatch[1]);
       if (def && !definitions.includes(def)) definitions.push(def);
     }
   }
@@ -328,193 +365,31 @@ function definitionToClue(definition, word, categoryKey) {
   return fallback.length >= MIN_CLUE_LEN && !fallback.includes(word) ? fallback : null;
 }
 
-function loadEntries() {
-  const { loadCategoriesFile } = require('./category-encoding.cjs');
-  const CATEGORIES = loadCategoriesFile(path.join(ROOT, 'data', 'categories.js'));
-  const entries = [];
-
-  for (const [categoryKey, category] of Object.entries(CATEGORIES)) {
-    for (const entry of category.words) {
-      entries.push({ categoryKey, categoryName: category.name, ...entry });
-    }
-  }
-
-  return entries;
+function wordToClue(word, categoryKey, lookup) {
+  const manual = MANUAL_CLUES[word];
+  if (manual) return manual;
+  if (!lookup) return null;
+  return definitionToClue(lookup.definition, word, categoryKey);
 }
 
-function loadExistingClues() {
-  const { FACTUAL_CLUES } = require('./factual-clues.js');
-  return FACTUAL_CLUES;
+function isValidClue(clue, word) {
+  return (
+    clue &&
+    clue.length >= MIN_CLUE_LEN &&
+    clue.length <= MAX_CLUE_LEN &&
+    !clue.includes(word) &&
+    !isBrokenClue(clue)
+  );
 }
 
-function loadProgress() {
-  if (!fs.existsSync(PROGRESS_PATH)) {
-    return { results: {} };
-  }
-  return JSON.parse(fs.readFileSync(PROGRESS_PATH, 'utf8'));
-}
-
-function saveProgress(progress) {
-  fs.writeFileSync(PROGRESS_PATH, JSON.stringify(progress, null, 2), 'utf8');
-}
-
-function writeFactualClues(cluesByWord) {
-  const entries = loadEntries();
-  const lines = ['module.exports = {', '  FACTUAL_CLUES: {'];
-
-  for (const entry of entries) {
-    const clue = cluesByWord[entry.word];
-    if (!clue) continue;
-    lines.push(`    '${entry.word}': '${clue.replace(/'/g, "\\'")}',`);
-  }
-
-  lines.push('  },', '};', '');
-  fs.writeFileSync(FACTUAL_PATH, lines.join('\n'), 'utf8');
-}
-
-async function main() {
-  const reset = process.argv.includes('--reset');
-  const testWord = process.argv.find((arg) => arg.startsWith('--test='))?.slice(7);
-  const writeOnly = process.argv.includes('--write-only');
-
-  const existing = loadExistingClues();
-  const entries = loadEntries();
-  const entryByWord = new Map(entries.map((entry) => [entry.word, entry]));
-  const progress = reset ? { results: {} } : loadProgress();
-
-  if (testWord) {
-    const entry = entryByWord.get(testWord);
-    const manual = MANUAL_CLUES[testWord];
-    const lookup = manual
-      ? { source: 'manual', form: testWord, definition: manual }
-      : await lookupDefinition(testWord, entry?.categoryKey ?? 'nature');
-    const clue = manual
-      ? manual
-      : lookup
-        ? definitionToClue(lookup.definition, testWord, entry?.categoryKey ?? 'nature')
-        : null;
-    console.log(
-      JSON.stringify(
-        {
-          category: entry?.categoryKey,
-          lookup,
-          clue,
-          existing: existing[testWord],
-        },
-        null,
-        2
-      )
-    );
-    return;
-  }
-
-  if (process.argv.includes('--reprocess')) {
-    const report = JSON.parse(fs.readFileSync(REPORT_PATH, 'utf8'));
-    const clues = {};
-
-    for (const item of report) {
-      const manual = MANUAL_CLUES[item.word];
-      let clue = manual
-        ? manual
-        : item.definition
-          ? definitionToClue(item.definition, item.word, item.categoryKey)
-          : null;
-
-      if (!clue || isBrokenClue(clue)) {
-        clue = item.previousClue ?? existing[item.word] ?? clue;
-      }
-
-      item.clue = clue;
-      item.changed = clue !== item.previousClue;
-      clues[item.word] = clue;
-    }
-
-    writeFactualClues(clues);
-    fs.writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2), 'utf8');
-    console.log(`재처리 완료 · ${report.length}개`);
-    return;
-  }
-
-  if (writeOnly) {
-    const clues = {};
-    for (const [word, item] of Object.entries(progress.results)) {
-      clues[word] = item.clue || existing[word];
-    }
-    writeFactualClues(clues);
-    console.log(`factual-clues.js 갱신: ${Object.keys(clues).length}개`);
-    return;
-  }
-
-  const words = [...new Set(entries.map((entry) => entry.word))];
-  const pending = words.filter((word) => !progress.results[word]);
-
-  console.log(`사전 기반 단서 동기화 · ${words.length}개 · 남은 ${pending.length}개`);
-
-  let index = words.length - pending.length;
-
-  for (const word of pending) {
-    index++;
-    const entry = entryByWord.get(word);
-    const previous = existing[word];
-    process.stdout.write(`\r[${index}/${words.length}] ${word}                    `);
-
-    try {
-      const manual = MANUAL_CLUES[word];
-      const lookup = manual
-        ? { source: 'manual', form: word, definition: manual }
-        : await lookupDefinition(word, entry.categoryKey);
-      const clue = manual
-        ? manual
-        : lookup
-          ? definitionToClue(lookup.definition, word, entry.categoryKey)
-          : null;
-
-      progress.results[word] = {
-        word,
-        categoryKey: entry.categoryKey,
-        source: lookup?.source ?? 'missing',
-        matchedForm: lookup?.form ?? null,
-        definition: lookup?.definition ?? null,
-        clue: clue ?? previous,
-        previousClue: previous,
-        changed: Boolean(clue && clue !== previous),
-        generated: Boolean(clue),
-      };
-      saveProgress(progress);
-    } catch (error) {
-      console.error(`\n요청 실패: ${word} (${error.message})`);
-      console.error('진행 저장됨. 같은 명령으로 이어서 실행하세요.');
-      process.exitCode = 1;
-      return;
-    }
-
-    await sleep(DELAY_MS);
-  }
-
-  console.log('\n');
-
-  const results = Object.values(progress.results);
-  const generated = results.filter((item) => item.generated);
-  const missing = results.filter((item) => item.source === 'missing');
-  const changed = results.filter((item) => item.changed);
-
-  console.log(`사전 단서 생성: ${generated.length}개`);
-  console.log(`기존 단서 유지: ${results.length - generated.length}개`);
-  console.log(`변경됨: ${changed.length}개`);
-  console.log(`사전 미등재: ${missing.length}개`);
-
-  const clues = {};
-  for (const item of results) {
-    clues[item.word] = item.clue;
-  }
-  writeFactualClues(clues);
-  fs.writeFileSync(REPORT_PATH, JSON.stringify(results, null, 2), 'utf8');
-
-  console.log(`\n${FACTUAL_PATH} 갱신 완료`);
-  console.log(`리포트: ${REPORT_PATH}`);
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+module.exports = {
+  MIN_CLUE_LEN,
+  MAX_CLUE_LEN,
+  MANUAL_CLUES,
+  sleep,
+  lookupDefinition,
+  definitionToClue,
+  wordToClue,
+  isBrokenClue,
+  isValidClue,
+};

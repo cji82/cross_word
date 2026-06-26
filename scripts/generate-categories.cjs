@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { FACTUAL_CLUES } = require('./factual-clues.js');
+const { encodeCategories } = require('./category-encoding.cjs');
 
 const DATA = {
   animals: {
@@ -530,8 +531,20 @@ const DATA = {
   },
 };
 
+function loadWordPacks() {
+  const packs = {};
+  const packDir = path.join(__dirname, 'word-packs');
+  for (const key of Object.keys(DATA)) {
+    const packPath = path.join(packDir, `${key}.js`);
+    packs[key] = fs.existsSync(packPath) ? require(packPath) : [];
+  }
+  return packs;
+}
+
+const WORD_PACKS = loadWordPacks();
+
 const OUT_PATH = path.join(__dirname, '..', 'data', 'categories.js');
-const EXPECTED = 120;
+const EXPECTED = 620;
 const MIN_SYLLABLES = 2;
 
 /** 양쪽 사전 미등재 단어 → 표준/우리말샘 등재 단어 */
@@ -694,6 +707,8 @@ const EXTRA_WORDS = {
     { word: '로봇공학자', clue: '로봇 시스템을 연구하고 개발하는 과학자' },
     { word: '기술영업', clue: '기술 제품을 설명하고 판매를 담당하는 직무' },
     { word: '항공정비사', clue: '항공기의 정비와 점검을 수행하는 전문가' },
+    { word: '산림기술자', clue: '숲을 조성하고 보호하는 전문 기술자' },
+    { word: '해양생물학자', clue: '바다 생물을 연구하는 과학자' },
   ],
   nature: [
     { word: '한강', clue: '서울을 가로지르는 큰 강' },
@@ -755,6 +770,7 @@ function prepareData() {
   for (const [key, category] of Object.entries(DATA)) {
     applyWordReplacements(category.words);
     applyWordReplacements(EXTRA_WORDS[key] || []);
+    applyWordReplacements(WORD_PACKS[key] || []);
     // 사전 자동 동기화 단서는 동음이의어/인코딩 이슈가 있어 기본 단서를 사용한다.
     const used = new Set();
     const words = [];
@@ -767,6 +783,14 @@ function prepareData() {
     }
 
     for (const entry of EXTRA_WORDS[key] || []) {
+      if (words.length >= EXPECTED) break;
+      if (countSyllables(entry.word) < MIN_SYLLABLES) continue;
+      if (used.has(entry.word)) continue;
+      used.add(entry.word);
+      words.push(entry);
+    }
+
+    for (const entry of WORD_PACKS[key] || []) {
       if (words.length >= EXPECTED) break;
       if (countSyllables(entry.word) < MIN_SYLLABLES) continue;
       if (used.has(entry.word)) continue;
@@ -811,19 +835,13 @@ function validate() {
 }
 
 function writeOutput() {
-  const lines = ['const CATEGORIES = {'];
-  for (const [key, category] of Object.entries(DATA)) {
-    lines.push(`  ${key}: {`);
-    lines.push(`    name: '${category.name}',`);
-    lines.push('    words: [');
-    for (const { word, clue } of category.words) {
-      lines.push(`      { word: '${word}', clue: '${clue}' },`);
-    }
-    lines.push('    ],');
-    lines.push('  },');
-  }
-  lines.push('};', '');
-  fs.writeFileSync(OUT_PATH, lines.join('\n'), 'utf8');
+  const payload = encodeCategories(DATA);
+  const content = [
+    '/** crossword category data (encoded) */',
+    `const __CW='${payload}';`,
+    '',
+  ].join('\n');
+  fs.writeFileSync(OUT_PATH, content, 'utf8');
 }
 
 prepareData();
