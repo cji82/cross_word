@@ -36,7 +36,18 @@ function canPlace(grid, syllables, row, col, dir) {
 
   const endRow = row + dr * (len - 1);
   const endCol = col + dc * (len - 1);
-  if (endRow < 0 || endCol < 0 || endRow >= size || endCol >= size) return false;
+  if (
+    row < 0 ||
+    col < 0 ||
+    endRow < 0 ||
+    endCol < 0 ||
+    row >= size ||
+    col >= size ||
+    endRow >= size ||
+    endCol >= size
+  ) {
+    return false;
+  }
 
   const beforeR = row - dr;
   const beforeC = col - dc;
@@ -740,7 +751,13 @@ function getEligibleWords(categoryKey) {
       Object.values(CATEGORIES).forEach((category) => {
         category.words.forEach((raw) => {
           const entry = enrichWordEntry(raw);
-          if (!isValidQuizWord(entry.word) || seen.has(entry.word)) return;
+          if (
+            !isValidQuizWord(entry.word) ||
+            entry.syllables.length > MAX_PUZZLE_DIMENSION ||
+            seen.has(entry.word)
+          ) {
+            return;
+          }
           seen.add(entry.word);
           merged.push(entry);
         });
@@ -756,7 +773,12 @@ function getEligibleWords(categoryKey) {
     if (!category) return [];
     categoryWordCache.set(
       categoryKey,
-      category.words.map(enrichWordEntry).filter((entry) => isValidQuizWord(entry.word))
+      category.words
+        .map(enrichWordEntry)
+        .filter(
+          (entry) =>
+            isValidQuizWord(entry.word) && entry.syllables.length <= MAX_PUZZLE_DIMENSION
+        )
     );
   }
   return categoryWordCache.get(categoryKey);

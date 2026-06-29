@@ -3,7 +3,7 @@
 const https = require('https');
 
 const MIN_CLUE_LEN = 10;
-const MAX_CLUE_LEN = 25;
+const MAX_CLUE_LEN = 36;
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 const BROWSER_HEADERS = {
@@ -61,6 +61,39 @@ const MANUAL_CLUES = {
   늪지: '물이 고인 습한 땅',
   결빙: '물이 얼어 꽁꽁 어는 현상',
   등압선: '기압이 같은 지점을 잇는 선',
+  참기름: '참깨를 볶아 짠 고소한 기름',
+  결명자차: '볶은 결명자를 넣고 끓인 차',
+  계란빵: '밀가루에 달걀을 넣고 찐 빵',
+  고춧가루: '붉은 고추를 말려 빻은 가루',
+  김치국: '김치로 끓여 만든 국',
+  소시지: '고기를 양념해 창자에 넣은 음식',
+  어묵: '생선살을 다져 뭉친 가공 식품',
+  위스키: '곡물을 발효해 증류한 술',
+  파김치: '파로 담근 김치',
+  개구리참외: '성환 일대에서 재배하는 참외 품종',
+  참제비: '집에서 사는 제비를 뜻하는 말',
+  동박새: '도서 지방에 서식하는 작은 새',
+  바지락: '사할린 등지에 분포하는 조개',
+  비단뱀: '작은 동물이나 새를 잡아먹는 뱀',
+  쇠오리: '하천과 호수에 사는 오리',
+  야생동물: '자연에서 스스로 사는 동물',
+  야크: '히말라야에 사는 털이 긴 소',
+  진돗개: '전남 진도에서 기르는 우리나 개',
+  호박벌: '호박 꽃가루를 모으는 벌',
+  골수박: '해골을 수박에 비유해 부르는 말',
+  귤빛부전나비: '한국과 일본에 분포하는 나비',
+  긴잎산딸기: '장미과 낙엽 활엽 관목',
+  매실차: '매실 가루를 꿀에 타 마시는 차',
+  브라질너트: '아마존 유역에서 나는 큰 나무',
+  황밤: '말려 껍질과 보늬를 벗긴 밤',
+  강사: '학교나 학원에서 가르치는 사람',
+  경비하다: '도난이나 침략을 막아 지키다',
+  교사자: '남을 꾀어 나쁜 일을 하게 하는 사람',
+  시스템분석가: '시스템 설계를 위해 문제를 분석하는 사람',
+  중등교사: '중학교나 고등학교에서 가르치는 교사',
+  고개: '산과 산 사이를 넘는 길목',
+  내권: '혼인하여 남자의 짝이 된 여자',
+  반사성운: '별빛을 반사해 밝게 보이는 구름',
 };
 
 const CATEGORY_HINTS = {
@@ -121,11 +154,11 @@ async function fetchUrl(url, headers = {}, retries = 3) {
           url,
           { agent: httpsAgent, headers: { ...BROWSER_HEADERS, ...headers }, timeout: 20000 },
           (res) => {
-            let data = '';
+            const chunks = [];
             res.on('data', (chunk) => {
-              data += chunk;
+              chunks.push(chunk);
             });
-            res.on('end', () => resolve(data));
+            res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
           }
         );
         req.on('timeout', () => {
@@ -282,13 +315,83 @@ function expandOneOfPattern(clause) {
   return clause;
 }
 
+const COMPLETE_CLUE_ENDING =
+  /(?:다|임|함|됨|종|물|새|풀|나무|과일|음식|요리|반찬|국수|찌개|구이|볶음|조림|전골|덮밥|찜|탕|죽|밥|면|떡|젓갈|김치|튀김|전|사람|직업|담당|전문가|기술자|의사|간호사|변호사|교사|군인|선원|조종사|미용사|요리사|제빵사|바리스타|셰프|감독|배우|가수|작가|화가|교수|연구원|과학자|엔지니어|개발자|디자이너|마케터|상담사|복지사|코치|심판|약사|사서|안내원|가이드|은행원|공무원|외교관|아나운서|진행자|성우|모델|조각가|현상|지형|암석|광물|식물|바람|비|눈|구름|번개|천둥|무지개|태양|위성|별|새벽|황혼|일출|일몰|강|산|숲|바다|호수|연못|폭포|동굴|사막|빙하|화산|지진|해일|조수|해류|몬순|우박|뇌우|이슬|서리|안개|소나기|장마|태풍|폭풍|계절|기후|기온|기압|습도|지평선|해안선|퇴적층|화강암|현무암|간헐천|열대림|원시림|습지|늪지|간석지|자갈밭|암초|설원|눈사태|침엽수|낙엽수|교목|관목|여러해살이풀|한해살이풀|바닷물고기|민물고기|포유류|설치류|맹금류|갑각류|연체동물|파충류|양서류|곤충|조류|어류|품종|천연기념물|국립공원|의 종류|의 하나|을 뜻|를 뜻|으로 불|으로 알|으로 쓰|에 속하는 종|에 사는|을 키우|를 먹|을 만|를 만)$/;
+
 function isBrokenClue(clue) {
-  if (/(?:것으|으로|하여|해서|이를|에서|에게|기획하|제작하|만들하|취재하|위치해|의하|강하|같)$/.test(clue)) {
+  if (!clue) return true;
+  if (/(?:것으|으로|하여|해서|이를|에게|기획하|제작하|만들하|취재하|위치해|의하|강하|같)$/.test(clue)) {
     return true;
   }
   if (/[을를이가은는과와도에서로]$/.test(clue)) return true;
   if (/(?:한다|있다|된다)$/.test(clue)) return true;
   return false;
+}
+
+function isTruncatedClue(clue) {
+  if (!clue || isBrokenClue(clue)) return true;
+  if (
+    /(?:이르|통틀|통하|위하|대하|관하|따라|부터|까지|사이에|안에|밖에|속에|위한|있는|없는|하는|되는|인한|라고|이라|라는|입은|위해|통해|대해|관해|따른|과의|를 통|을 통|에 있|에 속|에 사|에 흐|에 내|에 분|에 형|에 만|에 일|에 피|에 솟|으로 이|으로 굳|으로 만|으로 보|으로 나|으로 쌓|으로 흐|으로 밝|의 바|의 네|의 세|비슷한데|같은데|여러|많이|작고|크고|길고)$/.test(
+      clue
+    )
+  ) {
+    return true;
+  }
+  if (/통틀어?\s*이르/.test(clue) && !/이르는/.test(clue)) return true;
+  if (/[은는이가]\s*\d+$/.test(clue)) return true;
+  if (/\d$/.test(clue) && clue.length >= 18) return true;
+  if (clue.length >= 35 && !COMPLETE_CLUE_ENDING.test(clue)) return true;
+  return false;
+}
+
+function sanitizeClueText(clue) {
+  return String(clue)
+    .normalize('NFC')
+    .replace(/\uFFFD/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function isCorruptedClue(clue) {
+  return /\uFFFD/.test(clue);
+}
+
+function sliceClueText(text, maxLen) {
+  return [...String(text).normalize('NFC')].slice(0, maxLen).join('');
+}
+
+function rewriteDictionaryPatterns(clause, categoryKey) {
+  let text = clause
+    .replace(/[을를] 통틀어 이르는 말\.?$/, '의 종류')
+    .replace(/을 일상적으로 이르는 말\.?$/, '을 뜻하는 말')
+    .replace(/를 일상적으로 이르는 말\.?$/, '를 뜻하는 말')
+    .replace(/이라고도 한다\.?$/, '')
+    .replace(/라고도 한다\.?$/, '')
+    .replace(/우리나라 천연기념물이다\.?/, '천연기념물로 지정된 종')
+    .replace(/국립 공원의 하나이다\.?/, '국립공원으로 지정된 산')
+    .replace(/한 해의 네 철 가운데 (?:첫째|둘째|셋째|넷째) 철\.?/, (match) => {
+      if (match.includes('첫째')) return '봄부터 시작하는 네 계절 중 첫째';
+      if (match.includes('둘째')) return '여름에 해당하는 네 계절 중 둘째';
+      if (match.includes('셋째')) return '가을에 해당하는 네 계절 중 셋째';
+      return '겨울에 해당하는 네 계절 중 넷째';
+    });
+
+  if (categoryKey === 'animals') {
+    text = text
+      .replace(/([가-힣]+)과의 바닷물고기/, '$1과 바닷물고기')
+      .replace(/([가-힣]+)과의 민물고기/, '$1과 민물고기')
+      .replace(/([가-힣]+)과의 곤충/, '$1과 곤충')
+      .replace(/([가-힣]+)과의 새/, '$1과 새')
+      .replace(/([가-힣]+)과에 속하는 종/, '$1과 동물');
+  }
+
+  if (categoryKey === 'nature') {
+    text = text
+      .replace(/([가-힣]+)과의 (여러해살이풀|한해살이풀|낙엽 교목|상록 교목|활엽 관목)/, '$1과 $2')
+      .replace(/([가-힣]+)뭇과의/, '$1나무과의');
+  }
+
+  return text.replace(/\s+/g, ' ').trim();
 }
 
 function finalizeClue(clue) {
@@ -299,24 +402,40 @@ function finalizeClue(clue) {
 }
 
 function trimToLength(text, min, max) {
-  let value = text.trim();
-  if (value.length <= max) return finalizeClue(value);
+  const value = sanitizeClueText(text);
+  if (!value) return null;
 
-  const particles = /[ ,.;·의을를이가은는과와도에서로]+$/;
-  for (let i = max; i >= min; i--) {
-    const candidate = finalizeClue(value.slice(0, i).replace(particles, '').trim());
-    if (candidate.length >= min && candidate.length <= max) return candidate;
+  if (value.length <= max) {
+    const clipped = finalizeClue(value);
+    return clipped.length >= min && !isTruncatedClue(clipped) ? clipped : null;
   }
 
-  return finalizeClue(value.slice(0, max).replace(particles, '').trim());
+  for (const piece of value.split(/[，,;·]/).map((part) => part.trim()).filter(Boolean)) {
+    if (piece.length > max) continue;
+    const clipped = finalizeClue(piece);
+    if (clipped.length >= min && !isTruncatedClue(clipped)) return clipped;
+  }
+
+  const particles = /[ ,.;·의을를이가은는과와도에서로에게]+$/;
+  for (let i = max; i >= min; i--) {
+    const candidate = finalizeClue(sliceClueText(value, i).replace(particles, '').trim());
+    if (candidate.length >= min && candidate.length <= max && !isTruncatedClue(candidate)) {
+      return candidate;
+    }
+  }
+
+  return null;
 }
 
 function scoreClause(clause, categoryKey) {
   let score = 0;
 
   if (clause.length >= MIN_CLUE_LEN && clause.length <= MAX_CLUE_LEN) score += 20;
-  else if (clause.length >= 8 && clause.length <= MAX_CLUE_LEN + 3) score += 8;
+  else if (clause.length >= 8 && clause.length <= MAX_CLUE_LEN + 3) score += 4;
   else score -= 6;
+
+  if (clause.length >= 12 && clause.length <= 28) score += 12;
+  if (clause.length >= 32) score -= 10;
 
   if (CATEGORY_HINTS[categoryKey]?.test(clause)) score += 10;
   if (CATEGORY_BONUS[categoryKey]?.test(clause)) score += 6;
@@ -331,7 +450,12 @@ function definitionToClue(definition, word, categoryKey) {
   const cleaned = cleanDefinition(definition);
   const sentences = cleaned
     .split(/[.。]/)
-    .map((part) => polishClause(expandOneOfPattern(removeAnswerWord(part, word))))
+    .map((part) =>
+      rewriteDictionaryPatterns(
+        polishClause(expandOneOfPattern(removeAnswerWord(part, word))),
+        categoryKey
+      )
+    )
     .filter((part) => part.length >= 4);
 
   const ranked = [...new Set(sentences)].sort(
@@ -343,26 +467,35 @@ function definitionToClue(definition, word, categoryKey) {
   for (let i = 0; i < ranked.length - 1; i++) {
     candidates.push(`${ranked[i]} ${ranked[i + 1]}`);
   }
-  candidates.push(expandOneOfPattern(polishClause(removeAnswerWord(cleaned, word))));
+  candidates.push(
+    rewriteDictionaryPatterns(
+      expandOneOfPattern(polishClause(removeAnswerWord(cleaned, word))),
+      categoryKey
+    )
+  );
 
-  for (const candidate of candidates) {
-    const clue = trimToLength(candidate, MIN_CLUE_LEN, MAX_CLUE_LEN);
+  const ordered = [
+    ...candidates.filter((text) => text.length <= MAX_CLUE_LEN),
+    ...candidates.filter((text) => text.length > MAX_CLUE_LEN),
+  ];
+
+  for (const candidate of ordered) {
+    const clue =
+      candidate.length <= MAX_CLUE_LEN
+        ? finalizeClue(candidate)
+        : trimToLength(candidate, MIN_CLUE_LEN, MAX_CLUE_LEN);
     if (
+      clue &&
       clue.length >= MIN_CLUE_LEN &&
       clue.length <= MAX_CLUE_LEN &&
       !clue.includes(word) &&
-      !isBrokenClue(clue)
+      !isTruncatedClue(clue)
     ) {
       return clue;
     }
   }
 
-  const fallback = trimToLength(
-    expandOneOfPattern(polishClause(removeAnswerWord(cleaned, word))),
-    MIN_CLUE_LEN,
-    MAX_CLUE_LEN
-  );
-  return fallback.length >= MIN_CLUE_LEN && !fallback.includes(word) ? fallback : null;
+  return null;
 }
 
 function wordToClue(word, categoryKey, lookup) {
@@ -373,12 +506,14 @@ function wordToClue(word, categoryKey, lookup) {
 }
 
 function isValidClue(clue, word) {
+  const text = sanitizeClueText(clue);
   return (
-    clue &&
-    clue.length >= MIN_CLUE_LEN &&
-    clue.length <= MAX_CLUE_LEN &&
-    !clue.includes(word) &&
-    !isBrokenClue(clue)
+    text &&
+    !isCorruptedClue(text) &&
+    text.length >= MIN_CLUE_LEN &&
+    text.length <= MAX_CLUE_LEN &&
+    !text.includes(word) &&
+    !isTruncatedClue(text)
   );
 }
 
@@ -391,5 +526,8 @@ module.exports = {
   definitionToClue,
   wordToClue,
   isBrokenClue,
+  isTruncatedClue,
+  isCorruptedClue,
+  sanitizeClueText,
   isValidClue,
 };

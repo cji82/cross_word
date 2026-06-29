@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { FACTUAL_CLUES } = require('./factual-clues.js');
 const { encodeCategories } = require('./category-encoding.cjs');
+const { isTruncatedClue, isValidClue } = require('./clue-dictionary.cjs');
 
 const DATA = {
   animals: {
@@ -536,7 +537,8 @@ function loadWordPacks() {
   const packDir = path.join(__dirname, 'word-packs');
   for (const key of Object.keys(DATA)) {
     const packPath = path.join(packDir, `${key}.js`);
-    packs[key] = fs.existsSync(packPath) ? require(packPath) : [];
+    const raw = fs.existsSync(packPath) ? require(packPath) : [];
+    packs[key] = raw.filter((entry) => isValidClue(entry.clue, entry.word));
   }
   return packs;
 }
@@ -755,7 +757,9 @@ const EXTRA_WORDS = {
 function applyFactualClues(entries) {
   for (const entry of entries) {
     const clue = FACTUAL_CLUES[entry.word];
-    if (clue) entry.clue = clue;
+    if (clue && isValidClue(clue, entry.word)) {
+      entry.clue = clue;
+    }
   }
 }
 
@@ -778,6 +782,7 @@ function prepareData() {
     for (const entry of category.words) {
       if (countSyllables(entry.word) < MIN_SYLLABLES) continue;
       if (used.has(entry.word)) continue;
+      if (isTruncatedClue(entry.clue)) continue;
       used.add(entry.word);
       words.push(entry);
     }
@@ -786,6 +791,7 @@ function prepareData() {
       if (words.length >= EXPECTED) break;
       if (countSyllables(entry.word) < MIN_SYLLABLES) continue;
       if (used.has(entry.word)) continue;
+      if (isTruncatedClue(entry.clue)) continue;
       used.add(entry.word);
       words.push(entry);
     }
@@ -794,6 +800,7 @@ function prepareData() {
       if (words.length >= EXPECTED) break;
       if (countSyllables(entry.word) < MIN_SYLLABLES) continue;
       if (used.has(entry.word)) continue;
+      if (isTruncatedClue(entry.clue)) continue;
       used.add(entry.word);
       words.push(entry);
     }
@@ -820,11 +827,20 @@ function validate() {
     }
     for (const { word, clue } of category.words) {
       const len = clue.length;
-      if (len < 10 || len > 25) {
-        errors.push(`${key}/${word}: clue 길이 ${len} (10-25 필요)`);
+      if (len < 10 || len > 36) {
+        errors.push(`${key}/${word}: clue 길이 ${len} (10-36 필요)`);
       }
       if (countSyllables(word) < MIN_SYLLABLES) {
         errors.push(`${key}/${word}: ${countSyllables(word)}음절 (최소 ${MIN_SYLLABLES}음절)`);
+      }
+      if (clue.includes(word)) {
+        errors.push(`${key}/${word}: 단서에 정답 단어 포함`);
+      }
+      if (isTruncatedClue(clue)) {
+        errors.push(`${key}/${word}: 단서 문장이 잘림`);
+      }
+      if (/\uFFFD/.test(clue)) {
+        errors.push(`${key}/${word}: 단서 글자가 깨짐`);
       }
     }
   }
